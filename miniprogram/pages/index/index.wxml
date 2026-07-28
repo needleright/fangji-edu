@@ -36,5 +36,13 @@
     <view class="arrow">›</view>
   </view>
 
+  <view class="panel list-entry" bindtap="goAbout">
+    <view>
+      <view class="title">关于与免责声明</view>
+      <view class="sub">功能说明 · 免责声明 · 数据隐私</view>
+    </view>
+    <view class="arrow">›</view>
+  </view>
+
   <view class="tip">本工具仅用于中医知识学习训练，不构成诊疗建议</view>
 </view>

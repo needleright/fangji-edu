@@ -9,5 +9,6 @@ Page({
   goRandom() { wx.navigateTo({ url: '/pages/practice/practice?mode=random' }); },
   goTest() { wx.navigateTo({ url: '/pages/test/test' }); },
   goWrong() { wx.switchTab({ url: '/pages/wrongbook/wrongbook' }); },
-  goList() { wx.navigateTo({ url: '/pages/list/list' }); }
+  goList() { wx.navigateTo({ url: '/pages/list/list' }); },
+  goAbout() { wx.navigateTo({ url: '/pages/about/about' }); }
 });

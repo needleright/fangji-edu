@@ -1,0 +1,11 @@
+.about { padding: 32rpx 28rpx 60rpx; background: #F7F4EE; min-height: 100vh; }
+.brand { text-align: center; padding: 20rpx 0 36rpx; }
+.brand-title { font-size: 38rpx; font-weight: 700; color: #3E6B4F; }
+.brand-sub { font-size: 24rpx; color: #9B9284; margin-top: 10rpx; }
+.block { background: #fff; border-radius: 18rpx; padding: 28rpx; margin-bottom: 24rpx; box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.03); }
+.block-title { font-size: 30rpx; font-weight: 700; color: #2f2a24; margin-bottom: 14rpx; }
+.block-text { font-size: 26rpx; line-height: 1.7; color: #6b6359; }
+.block.warn { border-left: 8rpx solid #c0392b; }
+.block.warn .block-text { color: #7a3b32; }
+.strong { color: #c0392b; font-weight: 700; }
+.footer { text-align: center; font-size: 22rpx; color: #b0a89c; margin-top: 20rpx; }

@@ -1,0 +1,31 @@
+<view class="about">
+  <view class="brand">
+    <view class="brand-title">经方六经辨证训练</view>
+    <view class="brand-sub">中医经方学习 · 备考 · 复习工具</view>
+  </view>
+
+  <view class="block">
+    <view class="block-title">功能说明</view>
+    <view class="block-text">本程序是一款面向中医学习者、备考者的经方训练工具，覆盖 100 首经典经方（基于《伤寒论》《金匮要略》及后世名方），提供学习模式（翻卡记忆）、测试模式（先判六经再选方剂）、随机抽题、错题复习与方剂检索，帮助熟悉方证的六经归属、主治证候与鉴别要点。</view>
+  </view>
+
+  <view class="block warn">
+    <view class="block-title">免责声明</view>
+    <view class="block-text">1. 本程序仅供中医知识学习与训练使用，<text class="strong">不构成任何医疗建议、诊断或治疗方案</text>。
+2. 程序内所有方剂信息（药物组成、剂量、症状描述）由 AI 生成，并参考《伤寒论》《金匮要略》及全国中医药行业规划教材、《王绵之方剂学讲稿》等文献核对，但仍可能存在疏漏，仅供学习参考。
+3. 请勿依据本程序自行判断病情或处方用药；如有健康问题，请前往正规医疗机构咨询执业中医师。
+4. 因使用本程序内容导致的任何后果，开发者不承担法律责任。</view>
+  </view>
+
+  <view class="block">
+    <view class="block-title">数据与隐私</view>
+    <view class="block-text">本程序不收集、不上传任何个人信息。您的学习进度、收藏与设置仅保存在本机微信 Storage 中，卸载小程序即清除；未接入任何服务器或第三方数据分析。</view>
+  </view>
+
+  <view class="block">
+    <view class="block-title">内容来源</view>
+    <view class="block-text">核心文献：《伤寒论》《金匮要略》；参考教材：全国中医药行业高等教育规划教材（十版/十四五）《方剂学》《伤寒论》；王绵之《方剂学讲稿》。剂量与症状描述正式发布前建议经执业中医师审核。</view>
+  </view>
+
+  <view class="footer">版本 1.0.0 · 仅供学习交流</view>
+</view>

@@ -6,7 +6,8 @@
     "pages/wrongbook/wrongbook",
     "pages/list/list",
     "pages/detail/detail",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/about/about"
   ],
   "window": {
     "navigationBarBackgroundColor": "#3E6B4F",
