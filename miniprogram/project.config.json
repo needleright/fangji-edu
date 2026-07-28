@@ -1,0 +1,15 @@
+{
+  "description": "经方六经辨证训练小程序",
+  "projectname": "jingfang-trainer",
+  "appid": "touristappid",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "minified": true,
+    "postcss": true,
+    "urlCheck": false
+  },
+  "libVersion": "3.5.0"
+}

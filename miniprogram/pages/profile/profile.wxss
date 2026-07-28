@@ -1,0 +1,27 @@
+.nums { display: flex; }
+.n-item { flex: 1; text-align: center; }
+.n-v { font-size: 44rpx; font-weight: 700; }
+.c-green { color: #3E6B4F; }
+.c-amber { color: #A8762A; }
+.c-red { color: #B04030; }
+.c-gray { color: #9B9284; }
+
+.radar { width: 100%; height: 440rpx; }
+
+.bar-row { display: flex; align-items: center; margin-top: 14rpx; }
+.bar-m { width: 80rpx; font-size: 25rpx; color: #5A4E3A; }
+.bar-track { flex: 1; height: 20rpx; background: #F0EBDF; border-radius: 999rpx; overflow: hidden; margin: 0 16rpx; }
+.bar-fill { height: 100%; border-radius: 999rpx; }
+.bar-n { width: 90rpx; text-align: right; font-size: 22rpx; color: #9B9284; }
+
+.entry { display: flex; justify-content: space-between; align-items: center; font-size: 30rpx; }
+.arrow { color: #C9C0B0; font-size: 44rpx; }
+
+.set-row { display: flex; justify-content: space-between; align-items: center; margin-top: 24rpx; }
+.set-l { font-size: 27rpx; color: #3A3226; }
+.reset {
+  margin-top: 30rpx; text-align: center;
+  color: #B04030; font-size: 27rpx;
+  border: 2rpx solid #E8C5BE; border-radius: 14rpx; padding: 16rpx 0;
+}
+.tip { text-align: center; font-size: 22rpx; color: #B5AC9C; margin: 20rpx 0 40rpx; }

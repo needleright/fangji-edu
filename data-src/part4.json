@@ -1,0 +1,1739 @@
+[
+  {
+    "id": "F076",
+    "no": 76,
+    "name": "养心汤",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "少阴"
+    ],
+    "subPattern": "少阴气血不足，心神失养",
+    "composition": [
+      {
+        "herb": "黄芪",
+        "gram": 12,
+        "processing": "炙"
+      },
+      {
+        "herb": "茯苓",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "茯神",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "当归",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "川芎",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "半夏曲",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "柏子仁",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "酸枣仁",
+        "gram": 10,
+        "processing": "炒"
+      },
+      {
+        "herb": "远志",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "肉桂",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "五味子",
+        "gram": 6,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "心脾两虚，气血不足，心神失养，兼心阴亦亏",
+    "standardSymptom": "心悸怔忡，健忘失眠，神疲乏力，面色少华，舌淡苔薄，脉细弱。",
+    "variants": [
+      "最近老是睡不着，心里空落落的，记性也差了，干点活就乏得不行。",
+      "大夫，我心跳忽快忽慢，晚上翻来覆去，白天一点精神都没有。",
+      "人没力气，睡不踏实，记不住事，舌头看着也淡淡的。"
+    ],
+    "differentials": [
+      "酸枣仁汤",
+      "天王补心丹"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "心悸",
+      "失眠",
+      "健忘",
+      "神疲",
+      "乏力"
+    ]
+  },
+  {
+    "id": "F077",
+    "no": 77,
+    "name": "安神汤",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "少阴"
+    ],
+    "subPattern": "少阴心虚，失眠",
+    "composition": [
+      {
+        "herb": "当归",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "生地黄",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "熟地黄",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "茯神",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "酸枣仁",
+        "gram": 12,
+        "processing": "炒"
+      },
+      {
+        "herb": "莲子心",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "远志",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "心阴亏虚，虚火内扰，神不内守，寤寐失常",
+    "standardSymptom": "心烦不寐，惊悸多梦，口燥咽干，舌红少苔，脉细数。",
+    "variants": [
+      "脑子里跟放电影似的，一闭眼全是事，心口还突突乱跳。",
+      "整宿整宿地醒，嘴干舌燥的，心里烦得慌。",
+      "睡觉轻得很，有点动静就惊，梦还多，舌头红得没津液。"
+    ],
+    "differentials": [
+      "天王补心丹",
+      "黄连阿胶汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "失眠",
+      "心烦",
+      "惊悸",
+      "口干",
+      "舌红"
+    ]
+  },
+  {
+    "id": "F078",
+    "no": 78,
+    "name": "乌梅丸",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "厥阴蛔虫",
+    "composition": [
+      {
+        "herb": "乌梅",
+        "gram": 30,
+        "processing": ""
+      },
+      {
+        "herb": "细辛",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "干姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "黄连",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "当归",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "附子",
+        "gram": 6,
+        "processing": "炮"
+      },
+      {
+        "herb": "蜀椒",
+        "gram": 6,
+        "processing": "炒"
+      },
+      {
+        "herb": "桂枝",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "黄柏",
+        "gram": 6,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "蛔厥寒热错杂，上热下寒，蛔虫内扰，气机逆乱",
+    "standardSymptom": "心烦呕吐，时发厥冷，腹痛时作，得食而呕，常自吐蛔，舌苔黄白相兼，脉沉弦。",
+    "variants": [
+      "肚子一阵阵地绞着疼，疼起来手脚都凉，还直犯恶心想吐。",
+      "我这毛病奇怪，一会儿怕冷一会儿烦热，吃口饭就往上顶。",
+      "小孩老说肚脐眼周围疼，疼得打滚，还吐过虫子。"
+    ],
+    "differentials": [
+      "理中安蛔汤",
+      "大建中汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "腹痛",
+      "呕吐",
+      "厥冷",
+      "吐蛔",
+      "烦热"
+    ]
+  },
+  {
+    "id": "F079",
+    "no": 79,
+    "name": "厥阴百合汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "厥阴热象",
+    "composition": [
+      {
+        "herb": "百合",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "生地黄",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "知母",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "滑石",
+        "gram": 9,
+        "processing": "包煎"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "厥阴郁热伤阴，虚热内蕴，神明被扰而不安",
+    "standardSymptom": "神情默默，欲卧不能卧，口苦微热，小便赤，舌红少津，脉细数。",
+    "variants": [
+      "说不出哪儿不舒服，就是心里发烦不想动，嘴里苦苦的。",
+      "整个人飘飘忽忽的，觉也睡不安，小便黄得厉害。",
+      "没精神也不想说话，摸着身上有点低热，舌头干红的。"
+    ],
+    "differentials": [
+      "百合地黄汤",
+      "栀子豉汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "心烦",
+      "默默",
+      "口苦",
+      "低热",
+      "尿赤"
+    ]
+  },
+  {
+    "id": "F080",
+    "no": 80,
+    "name": "大承气汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "厥阴热象，腑实",
+    "composition": [
+      {
+        "herb": "大黄",
+        "gram": 12,
+        "processing": "后下"
+      },
+      {
+        "herb": "厚朴",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "枳实",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "芒硝",
+        "gram": 9,
+        "processing": "冲服"
+      }
+    ],
+    "pathogenesis": "厥阴热盛，燥屎内结，腑气不通，热极而生厥",
+    "standardSymptom": "潮热谵语，腹胀满痛拒按，大便秘结，手足濈然汗出，或见手足厥冷（热深厥深），舌红苔黄燥，脉沉实有力。",
+    "variants": [
+      "好几天没解大便，肚子硬邦邦的疼，说胡话，身上一阵阵潮热。",
+      "肚子胀得像个鼓，碰都不敢碰，还净说些没影儿的话。",
+      "手脚心直冒汗，大便解不出，舌红苔焦黄，脉按着实硬的。"
+    ],
+    "differentials": [
+      "小承气汤",
+      "调胃承气汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "便秘",
+      "腹胀痛",
+      "潮热",
+      "谵语",
+      "苔黄燥"
+    ]
+  },
+  {
+    "id": "F081",
+    "no": 81,
+    "name": "当归四逆汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "血虚寒厥，经脉凝滞",
+    "composition": [
+      {
+        "herb": "当归",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "细辛",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "通草",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "营血虚弱，寒凝经脉，血行不利，阳气不达四末——其厥仅在指掌至腕踝，与亡阳之冷过肘膝有别",
+    "standardSymptom": "手足厥寒，指掌至腕踝不温，脉细欲绝，或腰股腿足肩臂疼痛，口不渴，舌淡苔白。",
+    "variants": [
+      "一到冬天手脚就冰得跟铁似的，指尖尤其凉，脉摸着细得快没了——身上倒不感觉冷得那么厉害。",
+      "我这腿脚老是发凉发麻，血脉好像不通，舌头颜色也淡——不是全身冷，就是末梢不温。",
+      "手指头冻得发紫，暖也暖不热，但腕肘之上还有温度，跟四逆汤那种全身厥冷不一样。"
+    ],
+    "differentials": [
+      "四逆汤",
+      "黄芪桂枝五物汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "手足厥寒",
+      "脉细欲绝",
+      "肢麻",
+      "舌淡",
+      "血虚寒厥",
+      "肢端不温"
+    ]
+  },
+  {
+    "id": "F082",
+    "no": 82,
+    "name": "当归四逆加吴茱萸生姜汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "血虚寒厥，内有久寒",
+    "composition": [
+      {
+        "herb": "当归",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "细辛",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "通草",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "吴茱萸",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 15,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "血虚寒凝更兼里有沉寒，厥阴肝寒犯胃，经脉凝滞，水饮内停",
+    "standardSymptom": "手足厥寒，脉细欲绝，内有久寒——或腹痛呕逆，或巅顶头痛，舌淡苔白滑，脉沉细迟。",
+    "variants": [
+      "手脚冰凉不算，肚子里也一阵阵冷痛，老想吐酸水——这是陈年老寒了。",
+      "常年小腹发凉抽着疼，暖水袋不离身，脑袋顶上还一阵阵疼，脉沉得几乎摸不到。",
+      "天稍冷就浑身寒颤，胃里泛清水，腰腹凉得像冰块，比单纯当归四逆汤多了个里寒。"
+    ],
+    "differentials": [
+      "当归四逆汤",
+      "吴茱萸汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "手足厥寒",
+      "脉细欲绝",
+      "腹痛",
+      "呕逆",
+      "内久寒",
+      "巅顶头痛",
+      "脉沉迟"
+    ]
+  },
+  {
+    "id": "F083",
+    "no": 83,
+    "name": "桃红四物汤",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "肝血瘀滞，血虚夹瘀",
+    "composition": [
+      {
+        "herb": "桃仁",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "红花",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "当归",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "川芎",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白芍",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "熟地黄",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "肝血不足，瘀血内阻——王绵之强调逐瘀类方须辨瘀之新久、血之盛衰，桃红四物汤是养血与活血并行的代表",
+    "standardSymptom": "面色晦暗或萎黄，唇甲色淡而青，局部刺痛固定不移，女子月经不调、经闭痛经或经色紫暗有块，舌淡紫或有瘀斑，脉细涩。",
+    "variants": [
+      "脸色暗而无华，嘴唇发乌发淡，身上老有一处一处地刺痛，位置还不变。",
+      "大姨妈好几个月没来，一来就疼得打滚，血色紫黑有血块，血量偏少。",
+      "舌头伸出来淡紫还有瘀斑，身上碰哪儿都青，脉摸着涩涩细细的。"
+    ],
+    "differentials": [
+      "血府逐瘀汤",
+      "四物汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "刺痛",
+      "唇甲青紫或淡",
+      "经闭",
+      "痛经",
+      "舌淡紫",
+      "血虚血瘀",
+      "脉细涩"
+    ]
+  },
+  {
+    "id": "F084",
+    "no": 84,
+    "name": "膈下逐瘀汤",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "膈下瘀血，气滞血瘀",
+    "composition": [
+      {
+        "herb": "五灵脂",
+        "gram": 9,
+        "processing": "炒"
+      },
+      {
+        "herb": "当归",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "川芎",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "桃仁",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "牡丹皮",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "赤芍",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "乌药",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "延胡索",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "香附",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "红花",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "枳壳",
+        "gram": 6,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "膈下瘀血内结，气机阻滞——王绵之指出逐瘀类方中膈下逐瘀汤专攻腹中瘀血，以痛处不移而拒按为辨证要点",
+    "standardSymptom": "腹中或胁下有痞块，刺痛拒按，痛处固定不移，或卧则腹坠似有物，舌暗有瘀斑，脉弦涩。",
+    "variants": [
+      "肚子右边老顶着个包块，按上去针扎似的疼，位置一动不动，越按越疼。",
+      "吃完饭肚子就铰着疼，摸着有硬结，躺下还感觉肚子里坠着东西，舌头乌青一片。",
+      "我这肚痛好些年了，疼起来不敢碰，脸色暗沉沉的，不是气胀是实打实的瘀块。"
+    ],
+    "differentials": [
+      "少腹逐瘀汤",
+      "柴胡疏肝散"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "腹痛",
+      "痞块",
+      "刺痛拒按",
+      "痛处固定",
+      "舌暗瘀斑",
+      "脉弦涩"
+    ]
+  },
+  {
+    "id": "F085",
+    "no": 85,
+    "name": "逍遥散",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "肝郁血虚，脾弱不运",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "当归",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白芍",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白术",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "茯苓",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "薄荷",
+        "gram": 3,
+        "processing": "后下"
+      },
+      {
+        "herb": "生姜",
+        "gram": 3,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "肝郁血虚，脾弱不运——王绵之指出逍遥散从三个环节调整脏腑功能：疏肝解郁、养血柔肝、健脾助运，三环相扣，以当归为第一君药、白芍为第二君药",
+    "standardSymptom": "两胁作痛，情志抑郁或烦躁，头痛目眩，口燥咽干，神疲食少，月经不调，乳房胀痛，舌淡红苔薄，脉弦而虚。",
+    "variants": [
+      "最近老爱生闷气，胸口和两肋胀得慌，吃不下饭人也没劲儿，月经也乱套了。",
+      "大姨妈乱了套，心情忽上忽下，胁肋胀满，嘴里干、没胃口，脉摸着弦弦的但底下虚。",
+      "啥事都提不起劲，胃胀嗳气，月经拖后，脸也没血色，容易着急上火又累得慌。"
+    ],
+    "differentials": [
+      "柴胡疏肝散",
+      "四逆散",
+      "丹栀逍遥散"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "抑郁",
+      "胸胁胀",
+      "食少",
+      "月经不调",
+      "脉弦虚",
+      "肝郁血虚",
+      "脾弱"
+    ]
+  },
+  {
+    "id": "F086",
+    "no": 86,
+    "name": "丹栀逍遥散",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "肝郁血虚，郁而化火",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "当归",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白芍",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白术",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "茯苓",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "薄荷",
+        "gram": 3,
+        "processing": "后下"
+      },
+      {
+        "herb": "生姜",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "牡丹皮",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "栀子",
+        "gram": 9,
+        "processing": "炒"
+      }
+    ],
+    "pathogenesis": "肝郁日久化火，血虚脾弱未复，三焦郁热——王绵之谓丹栀逍遥散可清解三焦之郁火，是对逍遥散的重要发展",
+    "standardSymptom": "烦躁易怒，胸胁灼痛，口苦口干，头痛目赤，月经不调或经行先期量多色红，舌红苔薄黄，脉弦数。",
+    "variants": [
+      "火气一点就着，两胁烧得慌，嘴里发苦，月经提前色红量多，舌红舌苔黄。",
+      "心里烦躁睡不着，动不动发火，脸发红眼发赤，舌头红苔薄黄，脉跳得又快又硬。",
+      "明明郁着闷，又老上火长口疮，经水忽前忽后，心烦得坐不住——比逍遥散多了把火。"
+    ],
+    "differentials": [
+      "逍遥散",
+      "龙胆泻肝汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "烦躁",
+      "易怒",
+      "口苦",
+      "胁痛",
+      "脉弦数",
+      "肝郁化火",
+      "三焦郁热"
+    ]
+  },
+  {
+    "id": "F087",
+    "no": 87,
+    "name": "柴胡疏肝散",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "肝气郁滞，气滞血瘀",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "陈皮",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "川芎",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "香附",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "枳壳",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "白芍",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 3,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "肝气郁结，气滞血瘀——由四逆散加减而来，加陈皮、川芎、香附增强理气活血之力，专治胁肋胀痛",
+    "standardSymptom": "胁肋胀痛，走窜不定，胸闷善太息，情志不舒则甚，嗳气频作，脘腹胀满，舌淡红苔薄白，脉弦。",
+    "variants": [
+      "肋骨下头一阵阵窜着疼，生完气更厉害，老打嗝，胸闷得想长出气。",
+      "胸口堵得慌，气儿不顺，疼的地方还到处跑，嗳气连连才舒服点。",
+      "我这脾气一上来两边肋就胀疼，咕咕嗳气才舒服点，肚子也胀。"
+    ],
+    "differentials": [
+      "逍遥散",
+      "四逆散"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "胁肋胀痛",
+      "走窜",
+      "嗳气",
+      "情志不舒",
+      "脉弦",
+      "胸闷太息"
+    ]
+  },
+  {
+    "id": "F088",
+    "no": 88,
+    "name": "四逆散",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "阳郁厥逆，肝脾气郁",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "枳实",
+        "gram": 9,
+        "processing": "炙"
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 9,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "阳气内郁，不达四末，气机壅滞——王绵之强调四逆散之厥乃阳郁而非亡阳，手足不温但必不甚冷、指头微温、脉不沉微，与四逆汤之阴寒内盛、冷过肘膝、脉微欲绝有霄壤之别",
+    "standardSymptom": "手足不温（不甚冷，指头微温），或身微热，胸胁满闷，脘腹疼痛，或泄利下重，脉弦。",
+    "variants": [
+      "一生气着急手脚就发凉，可身上还一阵阵低热，胸口胁下闷胀——按着手不算冷，指头还有点温。",
+      "人看着不虚，可手足就是凉、按着不甚冷，胸胁闷胀，脉偏弦——不是四逆汤那种冰冷的。",
+      "一紧张就手脚发凉，肚子里咕噜咕噜，排便也不成形，后重感明显。"
+    ],
+    "differentials": [
+      "四逆汤",
+      "当归四逆汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "手足不温",
+      "阳郁",
+      "胸胁满",
+      "腹痛",
+      "泄利",
+      "脉弦",
+      "指头微温"
+    ]
+  },
+  {
+    "id": "F089",
+    "no": 89,
+    "name": "六磨汤",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "厥阴气滞，腹胀",
+    "composition": [
+      {
+        "herb": "沉香",
+        "gram": 3,
+        "processing": "后下"
+      },
+      {
+        "herb": "木香",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "槟榔",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "乌药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "枳实",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "大黄",
+        "gram": 6,
+        "processing": "后下"
+      }
+    ],
+    "pathogenesis": "气结于腹，腑气壅滞，七情气逆，腹胀便秘",
+    "standardSymptom": "腹胀满痛，便秘不行，欲便不得，嗳气食少，苔薄脉弦。",
+    "variants": [
+      "肚子胀得鼓鼓的，好几天不排便，憋得慌又解不出。",
+      "一着急上火就肚胀便秘，光打饱嗝吃不下。",
+      "我这腹胀跟情绪走，气不顺就堵着，脉弦得很。"
+    ],
+    "differentials": [
+      "五磨饮子",
+      "大承气汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "腹胀",
+      "便秘",
+      "嗳气",
+      "气逆",
+      "脉弦"
+    ]
+  },
+  {
+    "id": "F090",
+    "no": 90,
+    "name": "复脉汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "厥阴"
+    ],
+    "subPattern": "厥阴阴虚，心悸",
+    "composition": [
+      {
+        "herb": "炙甘草",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "生地黄",
+        "gram": 30,
+        "processing": ""
+      },
+      {
+        "herb": "阿胶",
+        "gram": 6,
+        "processing": "烊化"
+      },
+      {
+        "herb": "麦冬",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "麻仁",
+        "gram": 10,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "阴血亏虚，心脉失养，阳气不振，心悸脉结",
+    "standardSymptom": "心悸心慌，脉结代，虚羸少气，舌光少苔，口干燥。",
+    "variants": [
+      "心跳老是漏一拍，人瘦得虚，嘴里干得慌，舌头光光的没苔。",
+      "心慌得厉害，脉时断时续，气儿短，浑身没肉。",
+      "胸口突突的，搭脉一会儿有一会儿没，舌头红得没津液。"
+    ],
+    "differentials": [
+      "养心汤",
+      "生脉散"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "心悸",
+      "脉结代",
+      "虚羸",
+      "口干",
+      "舌光"
+    ]
+  },
+  {
+    "id": "F091",
+    "no": 91,
+    "name": "葛根汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳",
+      "阳明"
+    ],
+    "subPattern": "太阳阳明合病",
+    "composition": [
+      {
+        "herb": "葛根",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "麻黄",
+        "gram": 9,
+        "processing": "先煎"
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "太阳伤寒，阳明经气不舒，寒邪束表，经输不利",
+    "standardSymptom": "恶寒发热，无汗，项背强几几，下利或呕，苔薄白，脉浮紧。",
+    "variants": [
+      "脖子后头硬邦邦地僵，怕冷发烧不出汗，还窜稀。",
+      "后背连着脖子绷得紧，发高烧却不发汗，有点拉肚子。",
+      "受了寒浑身疼，后脑勺到肩背都板结，脉浮紧得很。"
+    ],
+    "differentials": [
+      "桂枝加葛根汤",
+      "麻黄汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "项背强",
+      "恶寒",
+      "无汗",
+      "下利",
+      "脉浮紧"
+    ]
+  },
+  {
+    "id": "F092",
+    "no": 92,
+    "name": "葛根加半夏汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳",
+      "阳明"
+    ],
+    "subPattern": "太阳阳明，呕吐",
+    "composition": [
+      {
+        "herb": "葛根",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "麻黄",
+        "gram": 9,
+        "processing": "先煎"
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "姜制"
+      }
+    ],
+    "pathogenesis": "太阳阳明合病，寒邪束表，里气上逆而作呕",
+    "standardSymptom": "恶寒发热，无汗项强，下利兼呕吐，苔白脉浮紧。",
+    "variants": [
+      "着了凉又拉又吐，后脖子僵硬，发烧却不出汗。",
+      "我这一受凉就上吐下泻，背脖子板得难受，脉浮紧。",
+      "恶寒无汗，项背僵，胃里翻江倒海直想吐，还拉肚子。"
+    ],
+    "differentials": [
+      "葛根汤",
+      "小半夏汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "呕吐",
+      "下利",
+      "项强",
+      "恶寒",
+      "脉浮紧"
+    ]
+  },
+  {
+    "id": "F093",
+    "no": 93,
+    "name": "小柴胡汤加减（太阳少阳）",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳",
+      "少阳"
+    ],
+    "subPattern": "太阳少阳合病",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "黄芩",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "姜制"
+      },
+      {
+        "herb": "人参",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "太阳表邪未解，邪入少阳，枢机不利，表里同病",
+    "standardSymptom": "寒热往来，发热恶寒，胸胁苦满，呕恶，苔薄白，脉弦。",
+    "variants": [
+      "一阵冷一阵热，冷时发抖热时烧，两边肋胀还犯恶心。",
+      "感冒拖着不好，忽冷忽热，胸口闷胀想吐，脉跳得弦。",
+      "外头怕冷里头烦热，胁下堵得慌，吃啥都想呕。"
+    ],
+    "differentials": [
+      "小柴胡汤",
+      "桂枝汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "寒热往来",
+      "胸胁苦满",
+      "呕恶",
+      "恶寒",
+      "脉弦"
+    ]
+  },
+  {
+    "id": "F094",
+    "no": 94,
+    "name": "大柴胡汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "少阳",
+      "阳明"
+    ],
+    "subPattern": "少阳阳明合病",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "黄芩",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "姜制"
+      },
+      {
+        "herb": "生姜",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "枳实",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "大黄",
+        "gram": 6,
+        "processing": "后下"
+      }
+    ],
+    "pathogenesis": "少阳不和，阳明腑实，枢机不利而兼里热结",
+    "standardSymptom": "往来寒热，胸胁苦满，呕不欲食，心下急痛，便秘，苔黄，脉弦有力。",
+    "variants": [
+      "忽冷忽热，胃脘又堵又疼，便秘好几天，脉弦得硬。",
+      "两边肋胀满，心里急得慌，吃不下还便秘，舌苔黄。",
+      "我这毛病寒热交作，心口窝按着剧痛，解不出大便。"
+    ],
+    "differentials": [
+      "小柴胡汤",
+      "大承气汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "寒热往来",
+      "心下急",
+      "便秘",
+      "呕",
+      "苔黄"
+    ]
+  },
+  {
+    "id": "F095",
+    "no": 95,
+    "name": "治中汤",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "太阴",
+      "阳明"
+    ],
+    "subPattern": "脾胃气虚",
+    "composition": [
+      {
+        "herb": "人参",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白术",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "干姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "陈皮",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "青皮",
+        "gram": 6,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "中焦虚寒，脾胃气虚，运化无力，气机痞滞",
+    "standardSymptom": "脘腹痞满，食少便溏，倦怠乏力，舌淡苔白，脉虚弱。",
+    "variants": [
+      "胃里老是胀闷不舒，吃不多就饱，大便稀溏，人懒得动。",
+      "中焦虚寒，吃点凉的就泻，浑身没劲，舌头淡白。",
+      "我这脾胃弱得很，饭量小还老拉肚子，脉虚得软。"
+    ],
+    "differentials": [
+      "理中汤",
+      "香砂六君子汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "脘痞",
+      "食少",
+      "便溏",
+      "乏力",
+      "脉弱"
+    ]
+  },
+  {
+    "id": "F096",
+    "no": 96,
+    "name": "附子粳米汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阴",
+      "少阴"
+    ],
+    "subPattern": "脾阳虚，肠滑",
+    "composition": [
+      {
+        "herb": "附子",
+        "gram": 9,
+        "processing": "炮"
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "姜制"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "粳米",
+        "gram": 30,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "脾肾阳虚，寒凝气滞，肠鸣泄泻，腹中雷鸣",
+    "standardSymptom": "腹中雷鸣切痛，胸胁逆满，呕吐，大便溏泄，舌淡苔白滑，脉沉迟。",
+    "variants": [
+      "肚子里咕噜咕噜响还绞着疼，又吐又泻，脉沉得迟。",
+      "肠子像打雷，冷痛想吐，稀便止不住，舌淡白滑。",
+      "我这腹中雷鸣剧痛，吐清水，拉肚子，手脚也凉。"
+    ],
+    "differentials": [
+      "理中汤",
+      "桃花汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "肠鸣",
+      "腹痛",
+      "呕吐",
+      "泄泻",
+      "脉沉迟"
+    ]
+  },
+  {
+    "id": "F097",
+    "no": 97,
+    "name": "旋复花代赭石汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明",
+      "少阳"
+    ],
+    "subPattern": "气机阻滞",
+    "composition": [
+      {
+        "herb": "旋复花",
+        "gram": 9,
+        "processing": "包煎"
+      },
+      {
+        "herb": "代赭石",
+        "gram": 15,
+        "processing": "先煎"
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "姜制"
+      },
+      {
+        "herb": "生姜",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "胃虚痰阻，肝胃气逆，噫气不除，气机痞塞",
+    "standardSymptom": "心下痞硬，嗳气频作，呕恶，纳差，舌淡苔白腻，脉弦滑。",
+    "variants": [
+      "胃里堵得硬，老嗳气止不住，吃不下饭，舌苔腻。",
+      "我这膈儿老往上顶气，心口下头痞硬，脉滑弦的。",
+      "嗳气声连连，胃脘胀满按之硬，恶心不想吃。"
+    ],
+    "differentials": [
+      "半夏泻心汤",
+      "橘皮竹茹汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "嗳气",
+      "心下痞",
+      "呕恶",
+      "纳差",
+      "脉弦滑"
+    ]
+  },
+  {
+    "id": "F098",
+    "no": 98,
+    "name": "小陷胸汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明",
+      "少阳"
+    ],
+    "subPattern": "热结胸中",
+    "composition": [
+      {
+        "herb": "黄连",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 12,
+        "processing": "姜制"
+      },
+      {
+        "herb": "瓜蒌",
+        "gram": 30,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "痰热互结，胸脘痞闷，热邪结于上焦胸中",
+    "standardSymptom": "心下痞闷，按之则痛，胸闷口苦，舌红苔黄腻，脉滑数。",
+    "variants": [
+      "心口下头一按就疼，闷得慌还口苦，舌红苔黄腻。",
+      "我这胸脘堵痛，按上去更疼，痰多黄黏，脉滑数。",
+      "胃脘部痞闷，一按就疼，嘴里发苦发黏，舌头黄腻。"
+    ],
+    "differentials": [
+      "大陷胸汤",
+      "半夏泻心汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "心下痛",
+      "痞硬",
+      "胸闷",
+      "口苦",
+      "苔黄腻"
+    ]
+  },
+  {
+    "id": "F099",
+    "no": 99,
+    "name": "柴胡黄芩半夏生姜汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "少阳",
+      "太阴"
+    ],
+    "subPattern": "少阳脾虚",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "黄芩",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "姜制"
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "白术",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "少阳邪郁，太阴脾虚，枢机不利，运化失司",
+    "standardSymptom": "往来寒热，胸胁不适，纳差腹胀，便溏乏力，舌淡红苔薄，脉弦弱。",
+    "variants": [
+      "一阵寒热，胁下不舒，吃不下还腹胀溏便，人乏力。",
+      "少阳病兼脾虚，忽冷忽热，胃弱拉肚子，脉虚弦。",
+      "我这两边肋胀，饭量小肚子胀，大便稀，没精神。"
+    ],
+    "differentials": [
+      "小柴胡汤",
+      "逍遥散"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "寒热往来",
+      "纳差",
+      "腹胀",
+      "便溏",
+      "脉弦弱"
+    ]
+  },
+  {
+    "id": "F100",
+    "no": 100,
+    "name": "痛泻要方",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "太阴",
+      "厥阴"
+    ],
+    "subPattern": "脾虚肝旺，肝脾不和",
+    "composition": [
+      {
+        "herb": "白术",
+        "gram": 12,
+        "processing": "炒"
+      },
+      {
+        "herb": "白芍",
+        "gram": 9,
+        "processing": "炒"
+      },
+      {
+        "herb": "陈皮",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "防风",
+        "gram": 6,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "脾虚肝乘，肝脾不和——王绵之将痛泻要方归入和解剂，强调其补脾柔肝、祛湿止泻之功，证属土虚木乘",
+    "standardSymptom": "肠鸣腹痛，大便泄泻，泻必腹痛，泻后痛缓，情志不舒则发，舌淡红苔薄白，脉两关不调，左弦而右缓。",
+    "variants": [
+      "一肚子疼就得跑厕所，拉完反倒舒坦了，跟情绪还有关，一着急就犯。",
+      "我这腹泻怪得很，疼一阵泻一阵，泻完不疼了，爱生气时犯，肠子还咕噜响。",
+      "肠鸣腹泻，左手的脉弦、右手的脉缓——脾虚还肝克着。"
+    ],
+    "differentials": [
+      "逍遥散",
+      "四逆散"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "腹痛",
+      "腹泻",
+      "泻后痛缓",
+      "肠鸣",
+      "情志",
+      "脉左弦右缓",
+      "肝脾不和",
+      "和解剂"
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+# 项目私有/系统文件（含本地记忆，勿提交）
+.workbuddy/
+.DS_Store
+
+# 依赖（若后续引入）
+node_modules/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.log
+
+# 预览临时文件
+preview/.cache/

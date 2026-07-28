@@ -1,0 +1,1453 @@
+[
+  {
+    "id": "F001",
+    "no": 1,
+    "name": "桂枝汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳中风证",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "风邪袭表，卫气受伤，营卫不和，腠理开泄，卫外不固",
+    "standardSymptom": "头痛发热，汗出恶风，鼻鸣干呕，苔白不渴，脉浮缓",
+    "variants": [
+      "感冒后老出汗怕风，头沉沉的还有点发烧，嗓子眼里拱着恶心。",
+      "时不时一阵热一阵汗，一见风就缩脖子，鼻子不通气干呕。",
+      "身上潮乎乎的，风吹着就冷，头发烫但汗不多，舌苔白白的。"
+    ],
+    "differentials": [
+      "麻黄汤",
+      "桂枝加葛根汤"
+    ],
+    "difficulty": "入门",
+    "tags": [
+      "头痛",
+      "发热",
+      "汗出",
+      "恶风",
+      "鼻鸣",
+      "干呕"
+    ]
+  },
+  {
+    "id": "F002",
+    "no": 2,
+    "name": "麻黄汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳伤寒证",
+    "composition": [
+      {
+        "herb": "麻黄",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "杏仁",
+        "gram": 9,
+        "processing": "去皮尖"
+      },
+      {
+        "herb": "甘草",
+        "gram": 3,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "寒邪束表，卫阳被遏，营阴郁滞，肺气不宣",
+    "standardSymptom": "恶寒发热，无汗而喘，头身疼痛，舌淡苔薄白，脉浮紧",
+    "variants": [
+      "冻着了，浑身发冷发烧，一点汗都没有，胸口闷得慌喘不上气。",
+      "感冒特别怕冷，裹厚被子都不行，浑身骨头节疼，不出汗。",
+      "受了寒之后体温高，皮肤干绷绷的，呼吸有点急促。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "大青龙汤"
+    ],
+    "difficulty": "入门",
+    "tags": [
+      "恶寒",
+      "发热",
+      "无汗",
+      "喘",
+      "身痛"
+    ]
+  },
+  {
+    "id": "F003",
+    "no": 3,
+    "name": "大青龙汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳伤寒表实不解",
+    "composition": [
+      {
+        "herb": "麻黄",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "杏仁",
+        "gram": 9,
+        "processing": "去皮尖"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      },
+      {
+        "herb": "石膏",
+        "gram": 30,
+        "processing": "碎"
+      }
+    ],
+    "pathogenesis": "风寒外束，卫阳郁遏，毛窍闭塞，阳郁化热，表寒里热",
+    "standardSymptom": "恶寒发热，寒热俱重，身疼痛，不汗出而烦躁，舌红苔薄黄，脉浮紧",
+    "variants": [
+      "冻着了恶寒发热都特别重，身上疼得厉害还不出一点汗，心里烦躁得不行。",
+      "高烧怕冷一样都不轻，浑身骨节疼，汗憋着出不来，人在屋里躁得要命。",
+      "寒战发高烧，浑身疼，皮肤干绷绷的没一滴汗，烦躁得坐卧不宁。"
+    ],
+    "differentials": [
+      "麻黄汤",
+      "小青龙汤",
+      "桂枝汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "恶寒",
+      "发热",
+      "无汗",
+      "烦躁",
+      "口渴"
+    ]
+  },
+  {
+    "id": "F004",
+    "no": 4,
+    "name": "小青龙汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳伤寒，水气内停",
+    "composition": [
+      {
+        "herb": "麻黄",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "细辛",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "干姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "洗"
+      },
+      {
+        "herb": "五味子",
+        "gram": 9,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "风寒客表，水饮内停，寒饮射肺，表寒里饮同病，素体阳虚",
+    "standardSymptom": "恶寒发热，无汗，喘咳，痰多而稀，或不得平卧，身体疼重，舌苔白滑，脉浮",
+    "variants": [
+      "一着凉就咳喘，痰稀白沫样的很难咳出，躺着更喘得厉害只好坐着。",
+      "感冒不出汗，咳嗽带喘，痰像清清的白沫子，身上沉得像灌了铅。",
+      "受寒后憋得喘不过气，痰跟蛋清似的又白又黏，躺不下只能半靠着。"
+    ],
+    "differentials": [
+      "麻黄汤",
+      "大青龙汤",
+      "桂枝加厚朴杏仁汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "恶寒",
+      "无汗",
+      "喘咳",
+      "痰稀",
+      "苔白滑",
+      "不得平卧"
+    ]
+  },
+  {
+    "id": "F005",
+    "no": 5,
+    "name": "桂枝麻黄各半汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳伤寒、中风并见",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 5,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 5,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 5,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 5,
+        "processing": "炙"
+      },
+      {
+        "herb": "麻黄",
+        "gram": 5,
+        "processing": ""
+      },
+      {
+        "herb": "杏仁",
+        "gram": 5,
+        "processing": "去皮尖"
+      },
+      {
+        "herb": "大枣",
+        "gram": 4,
+        "processing": "擘"
+      }
+    ],
+    "pathogenesis": "表邪轻浅，营卫不和，寒风并中，小发其汗",
+    "standardSymptom": "发热恶寒，热多寒少，身痒，面有热色，无汗或微汗，舌淡红苔薄白，脉微弱",
+    "variants": [
+      "烧得不厉害但总反复，怕冷又怕热，身上痒痒的像有小虫爬。",
+      "脸红红的发烧，冷一阵热一阵，皮肤干痒不出汗。",
+      "感冒拖着好不利索，身上刺挠，汗出一点点就不痒了。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "麻黄汤",
+      "桂枝二麻黄一汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "发热",
+      "恶寒",
+      "身痒",
+      "微汗"
+    ]
+  },
+  {
+    "id": "F006",
+    "no": 6,
+    "name": "葛根汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳",
+      "阳明"
+    ],
+    "subPattern": "太阳阳明合病",
+    "composition": [
+      {
+        "herb": "葛根",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "麻黄",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "芍药",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      }
+    ],
+    "pathogenesis": "风寒客表，经气不利，项背拘急，邪及阳明",
+    "standardSymptom": "恶寒发热，无汗，项背强痛，头痛，下利或呕，舌淡苔薄白，脉浮紧",
+    "variants": [
+      "脖子后头那根筋绷得紧紧的，转头都费劲，还发烧不出汗。",
+      "后背连着后颈酸硬得像板子，怕冷发烧，有点拉肚子。",
+      "受寒后脑袋和后背疼得厉害，汗闷在里头出不来。"
+    ],
+    "differentials": [
+      "桂枝加葛根汤",
+      "麻黄汤",
+      "大青龙汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "恶寒",
+      "无汗",
+      "项背强",
+      "头痛",
+      "下利"
+    ]
+  },
+  {
+    "id": "F007",
+    "no": 7,
+    "name": "麻黄加术汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳伤寒表实身痛",
+    "composition": [
+      {
+        "herb": "麻黄",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "杏仁",
+        "gram": 9,
+        "processing": "去皮尖"
+      },
+      {
+        "herb": "甘草",
+        "gram": 3,
+        "processing": "炙"
+      },
+      {
+        "herb": "白术",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "寒湿在表，营卫郁滞，一身烦疼，表实兼湿",
+    "standardSymptom": "恶寒发热，无汗，身体烦疼，关节酸痛沉重，舌淡苔白，脉浮紧",
+    "variants": [
+      "浑身酸沉得要命，骨头缝都疼，怕冷发烧还一点汗没有。",
+      "着了寒湿，浑身上下烦疼，关节沉甸甸的，不出汗。",
+      "发烧怕冷不出汗，可身上疼得坐卧不宁，像灌了铅。"
+    ],
+    "differentials": [
+      "麻黄汤",
+      "桂枝加芍药汤",
+      "麻杏苡甘汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "恶寒",
+      "无汗",
+      "身痛",
+      "关节酸沉"
+    ]
+  },
+  {
+    "id": "F008",
+    "no": 8,
+    "name": "麻黄细辛附子汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "少阴",
+      "太阳"
+    ],
+    "subPattern": "少阴病，始得之，反发热，太少两感",
+    "composition": [
+      {
+        "herb": "麻黄",
+        "gram": 6,
+        "processing": ""
+      },
+      {
+        "herb": "细辛",
+        "gram": 3,
+        "processing": ""
+      },
+      {
+        "herb": "附子",
+        "gram": 9,
+        "processing": "炮"
+      }
+    ],
+    "pathogenesis": "少阴阳虚，外感风寒，太少两感，表里俱寒",
+    "standardSymptom": "恶寒发热，无汗，神疲欲寐，四肢不温，舌淡苔白，脉沉微",
+    "variants": [
+      "本来就虚，这回受寒发烧怕冷，人困得睁不开眼，手脚冰凉。",
+      "身体底子弱，一感冒就高烧畏寒不出汗，总想缩着睡。",
+      "受凉后浑身冷得厉害，没精神只想躺着，脉摸着沉沉的。"
+    ],
+    "differentials": [
+      "麻黄汤",
+      "桂枝人参汤",
+      "四逆汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "恶寒",
+      "发热",
+      "无汗",
+      "神疲",
+      "肢冷"
+    ]
+  },
+  {
+    "id": "F009",
+    "no": 9,
+    "name": "桂枝加葛根汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳中风项背强",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      },
+      {
+        "herb": "葛根",
+        "gram": 12,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "风邪袭表，营卫不和，经气不舒，项背拘急",
+    "standardSymptom": "发热恶风，汗出，项背强痛，头痛，舌淡红苔薄白，脉浮缓",
+    "variants": [
+      "感冒老出汗怕风，后脖颈那一块硬邦邦的，扭头都僵。",
+      "低烧冒虚汗，风一吹就冷，后背连着脖子酸得直不起来。",
+      "受了风身上潮乎乎的，后颈僵疼，人软绵绵没力气。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "葛根汤",
+      "桂枝加厚朴杏仁汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "发热",
+      "恶风",
+      "汗出",
+      "项背强"
+    ]
+  },
+  {
+    "id": "F010",
+    "no": 10,
+    "name": "桂枝加厚朴杏仁汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳中风，喘息胁痛",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      },
+      {
+        "herb": "厚朴",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "杏仁",
+        "gram": 9,
+        "processing": "去皮尖"
+      }
+    ],
+    "pathogenesis": "风邪袭表，营卫不和，肺气上逆，兼喘胁痛",
+    "standardSymptom": "发热恶风，汗出，喘息，胸闷，舌淡红苔薄白，脉浮缓",
+    "variants": [
+      "感冒出着汗还怕风，喘得厉害，气儿总不够用，胸口发闷。",
+      "受了风就冒虚汗，一动就喘，嗓子和胸口都发紧。",
+      "低烧怕风出汗，喘得凶，胸口像压了块石头透不过气。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "小青龙汤",
+      "桂枝加葛根汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "发热",
+      "恶风",
+      "汗出",
+      "喘息",
+      "胁痛"
+    ]
+  },
+  {
+    "id": "F011",
+    "no": 11,
+    "name": "桂枝加芍药汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳中风，脾虚腹痛",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 18,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      }
+    ],
+    "pathogenesis": "表邪未解，脾虚肝乘，腹中急痛，营阴不和",
+    "standardSymptom": "发热恶风，汗出，腹中急痛，喜按，舌淡苔薄，脉浮弦",
+    "variants": [
+      "感冒还没好透，肚子一阵阵绞着疼，揉一揉能缓点。",
+      "出着汗怕风，小腹里头抽痛，按着舒服些。",
+      "受了风肚子就咕噜咕噜疼，一阵紧一阵松，喜暖喜按。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "桂枝加大黄汤",
+      "小建中汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "发热",
+      "恶风",
+      "汗出",
+      "腹痛",
+      "喜按"
+    ]
+  },
+  {
+    "id": "F012",
+    "no": 12,
+    "name": "桂枝加大黄汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阴误下，邪陷阳明，大实痛",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "芍药",
+        "gram": 18,
+        "processing": ""
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      },
+      {
+        "herb": "大黄",
+        "gram": 6,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "本太阳病误下，邪陷太阴，脾络瘀滞，兼阳明腑实，腹满大实痛，拒按便秘",
+    "standardSymptom": "发热恶风，汗出，腹满大实痛，拒按，便秘，舌红苔黄燥，脉沉实有力",
+    "variants": [
+      "感冒没好，肚子胀得硬邦邦的疼，碰都不敢碰，好几天没上厕所。",
+      "出着汗还怕冷，小肚子又胀又痛，按下去更狠，大便干结。",
+      "受了风后肚子里头实实地绞疼，拒按还便秘，人躁得很。"
+    ],
+    "differentials": [
+      "桂枝加芍药汤",
+      "大承气汤",
+      "桂枝汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "发热",
+      "恶风",
+      "腹满痛",
+      "拒按",
+      "便秘"
+    ]
+  },
+  {
+    "id": "F013",
+    "no": 13,
+    "name": "桂枝人参汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳中风虚弱",
+    "composition": [
+      {
+        "herb": "桂枝",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 12,
+        "processing": "炙"
+      },
+      {
+        "herb": "白术",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "干姜",
+        "gram": 9,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "表邪不解，里虚寒盛，脾阳受损，协热下利",
+    "standardSymptom": "发热恶寒，下利不止，心下痞硬，肢体倦怠，舌淡苔白，脉弱",
+    "variants": [
+      "感冒还发烧怕冷，可肚子总咕噜拉肚子，人软得没劲儿。",
+      "受了风身上发冷，胃脘那块堵得硬，一天跑好几趟厕所。",
+      "体虚感冒后低热畏寒，泻个不停，浑身乏得抬不动腿。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "桂枝加芍药汤",
+      "麻黄细辛附子汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "发热",
+      "恶寒",
+      "下利",
+      "心下痞",
+      "倦怠"
+    ]
+  },
+  {
+    "id": "F014",
+    "no": 14,
+    "name": "白虎汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳",
+      "阳明"
+    ],
+    "subPattern": "太阳热象内入",
+    "composition": [
+      {
+        "herb": "知母",
+        "gram": 18,
+        "processing": ""
+      },
+      {
+        "herb": "石膏",
+        "gram": 30,
+        "processing": "碎"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "粳米",
+        "gram": 15,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "表邪化热，内传阳明，气分热盛，津液耗伤",
+    "standardSymptom": "身热，汗出，不恶寒反恶热，口渴引饮，舌红苔黄，脉洪大",
+    "variants": [
+      "烧得浑身烫，一个劲儿冒汗，心里燥得老想喝凉水。",
+      "之前怕冷，现在不怕了光发热，汗多口干，脉跳得又大又快。",
+      "表证转里头热，皮肤灼人手心脚心都热，渴得直灌水。"
+    ],
+    "differentials": [
+      "白虎加人参汤",
+      "桂枝汤",
+      "大青龙汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "身热",
+      "汗出",
+      "恶热",
+      "口渴",
+      "脉洪大"
+    ]
+  },
+  {
+    "id": "F015",
+    "no": 15,
+    "name": "苓桂术甘汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳伤寒，水气痞硬",
+    "composition": [
+      {
+        "herb": "茯苓",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "白术",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "脾虚不运，水饮内停，气相搏结，心下痞硬",
+    "standardSymptom": "心下逆满，气上冲胸，起则头眩，脉沉紧，苔白滑",
+    "variants": [
+      "胃脘那块胀满堵得慌，一站起来就头晕眼花。",
+      "总觉得有股气往上顶到胸口，头也晕，舌头白腻腻的。",
+      "肚子里痞硬不舒，躺平还好，一起身就天旋地转。"
+    ],
+    "differentials": [
+      "桂枝人参汤",
+      "小青龙汤",
+      "十枣汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "心下逆满",
+      "气上冲胸",
+      "头眩",
+      "苔白滑"
+    ]
+  },
+  {
+    "id": "F016",
+    "no": 16,
+    "name": "小柴胡汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "少阳"
+    ],
+    "subPattern": "邪入少阳，枢机不利（少阳病）",
+    "composition": [
+      {
+        "herb": "柴胡",
+        "gram": 12,
+        "processing": ""
+      },
+      {
+        "herb": "黄芩",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "半夏",
+        "gram": 9,
+        "processing": "洗"
+      },
+      {
+        "herb": "甘草",
+        "gram": 9,
+        "processing": "炙"
+      },
+      {
+        "herb": "生姜",
+        "gram": 9,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 12,
+        "processing": "擘"
+      }
+    ],
+    "pathogenesis": "太阳表邪未解，内传少阳，枢机不利，正邪分争",
+    "standardSymptom": "往来寒热，胸胁苦满，默默不欲饮食，心烦喜呕，舌淡红苔薄白，脉弦",
+    "variants": [
+      "一会儿冷得发抖一会儿烧得慌，胸口两肋胀闷，吃不下饭。",
+      "老是恶心心烦，不想吃东西，肋骨两边堵得不舒服。",
+      "寒热来回折腾，口苦咽干，人闷闷的不想说话老想吐。"
+    ],
+    "differentials": [
+      "桂枝汤",
+      "大青龙汤",
+      "白虎汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "往来寒热",
+      "胸胁苦满",
+      "不欲食",
+      "心烦喜呕"
+    ]
+  },
+  {
+    "id": "F017",
+    "no": 17,
+    "name": "十枣汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "太阳"
+    ],
+    "subPattern": "太阳水气射肺",
+    "composition": [
+      {
+        "herb": "芫花",
+        "gram": 1,
+        "processing": "熬"
+      },
+      {
+        "herb": "甘遂",
+        "gram": 1,
+        "processing": ""
+      },
+      {
+        "herb": "大戟",
+        "gram": 1,
+        "processing": ""
+      },
+      {
+        "herb": "大枣",
+        "gram": 10,
+        "processing": "擘"
+      }
+    ],
+    "pathogenesis": "水饮停聚胸胁，壅塞肺气，悬饮内结，正气尚支",
+    "standardSymptom": "心下痞硬满，引胁下痛，干呕短气，咳唾引痛，苔白滑，脉沉弦",
+    "variants": [
+      "胸口到两肋胀得硬疼，一咳嗽牵着那块就钻心地痛，气也短。",
+      "嗓子里老有痰咳不净，喘不上气，肋巴骨里头刺痛。",
+      "肚子上头堵硬，干呕还喘，深呼吸两胁就扯着疼。"
+    ],
+    "differentials": [
+      "小青龙汤",
+      "苓桂术甘汤",
+      "葶苈大枣泻肺汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "心下痞硬",
+      "胁下痛",
+      "干呕",
+      "短气",
+      "咳唾引痛"
+    ]
+  },
+  {
+    "id": "F018",
+    "no": 18,
+    "name": "泻白散",
+    "alias": [],
+    "source": "医学启源",
+    "meridians": [
+      "肺"
+    ],
+    "subPattern": "太阳热象，肺热咳嗽",
+    "composition": [
+      {
+        "herb": "桑白皮",
+        "gram": 15,
+        "processing": "炒"
+      },
+      {
+        "herb": "地骨皮",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "甘草",
+        "gram": 3,
+        "processing": "炙"
+      },
+      {
+        "herb": "粳米",
+        "gram": 15,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "肺有伏火，郁热伤阴，肺气上逆，咳喘绵绵",
+    "standardSymptom": "咳嗽气喘，皮肤蒸热，日晡尤甚，舌红苔黄，脉细数",
+    "variants": [
+      "咳个没完，气喘，皮肤摸着发烫，下午尤其厉害。",
+      "嗓子不痒就是阵阵地咳，胸口燥热，傍晚烧得明显。",
+      "老慢支似的低热咳嗽，午后身子烘烘地热，舌红少津。"
+    ],
+    "differentials": [
+      "小青龙汤",
+      "麻杏石甘汤",
+      "白虎汤"
+    ],
+    "difficulty": "难点",
+    "tags": [
+      "咳嗽",
+      "气喘",
+      "皮肤蒸热",
+      "日晡热",
+      "脉细数"
+    ]
+  },
+  {
+    "id": "F019",
+    "no": 19,
+    "name": "白虎汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "阳明热象",
+    "composition": [
+      {
+        "herb": "知母",
+        "gram": 18,
+        "processing": ""
+      },
+      {
+        "herb": "石膏",
+        "gram": 30,
+        "processing": "碎"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "粳米",
+        "gram": 15,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "阳明气分热盛，里热炽张，津液被灼，无表邪束",
+    "standardSymptom": "壮热面赤，大汗出，大烦渴，脉洪大有力，舌红苔黄燥",
+    "variants": [
+      "烧得脸通红，汗哗哗地出，渴得要命，心口烦躁。",
+      "高热不怕冷了，反倒怕热，汗出如洗，老想喝冰水。",
+      "整个人烫得厉害，大汗淋漓，口渴引饮，脉洪得像洪水。"
+    ],
+    "differentials": [
+      "白虎加人参汤",
+      "大承气汤",
+      "调胃承气汤"
+    ],
+    "difficulty": "入门",
+    "tags": [
+      "壮热",
+      "大汗",
+      "大渴",
+      "脉洪大",
+      "面赤"
+    ]
+  },
+  {
+    "id": "F020",
+    "no": 20,
+    "name": "白虎加人参汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "阳明热象，气虚",
+    "composition": [
+      {
+        "herb": "知母",
+        "gram": 18,
+        "processing": ""
+      },
+      {
+        "herb": "石膏",
+        "gram": 30,
+        "processing": "碎"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "粳米",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "人参",
+        "gram": 9,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "阳明热盛，气津两伤，热灼津亏，气虚不摄",
+    "standardSymptom": "身热汗多，大渴饮水不解，气短神疲，舌红苔黄燥，脉洪大而芤",
+    "variants": [
+      "高烧出汗，渴得不行，水灌进去也不解渴，人虚得发软。",
+      "热得慌汗出得多，越喝越渴，气短没精神，脉大却空。",
+      "阳明热盛还气虚，喝多少都渴，浑身乏力直想歇着。"
+    ],
+    "differentials": [
+      "白虎汤",
+      "白虎加桂枝汤",
+      "大承气汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "身热",
+      "汗多",
+      "大渴",
+      "气短",
+      "脉芤"
+    ]
+  },
+  {
+    "id": "F021",
+    "no": 21,
+    "name": "白虎加桂枝汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "温疟，热痹，阳明热盛（骨节疼烦）",
+    "composition": [
+      {
+        "herb": "知母",
+        "gram": 18,
+        "processing": ""
+      },
+      {
+        "herb": "石膏",
+        "gram": 30,
+        "processing": "碎"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "粳米",
+        "gram": 15,
+        "processing": ""
+      },
+      {
+        "herb": "桂枝",
+        "gram": 9,
+        "processing": ""
+      }
+    ],
+    "pathogenesis": "阳明热盛，气阴两伤，复感风寒湿邪，热郁骨节，温疟骨节疼烦，或热痹肿痛",
+    "standardSymptom": "身无寒但热，骨节疼烦，时呕，汗出，口渴，舌红苔薄黄，脉弦数",
+    "variants": [
+      "一阵阵发烧浑身滚烫，骨头缝里又热又疼，还总泛恶心想吐。",
+      "里头热得慌，关节红肿灼痛，汗出得厉害老口渴，动不动就犯呕。",
+      "身上烘烘地热，浑身骨节酸灼地疼，出汗还老想喝水，时不时就呕逆。"
+    ],
+    "differentials": [
+      "白虎汤",
+      "桂枝加葛根汤",
+      "白虎加人参汤"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "壮热",
+      "汗出",
+      "口渴",
+      "骨节疼"
+    ]
+  },
+  {
+    "id": "F022",
+    "no": 22,
+    "name": "承气汤类",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "阳明腑实",
+    "composition": [
+      {
+        "herb": "大黄",
+        "gram": 12,
+        "processing": "酒洗"
+      },
+      {
+        "herb": "厚朴",
+        "gram": 15,
+        "processing": "炙"
+      },
+      {
+        "herb": "枳实",
+        "gram": 12,
+        "processing": "炙"
+      },
+      {
+        "herb": "芒硝",
+        "gram": 9,
+        "processing": "冲"
+      }
+    ],
+    "pathogenesis": "阳明腑实，燥屎内结，气机壅滞，痞满燥实坚俱备",
+    "standardSymptom": "腹满硬痛拒按，大便秘结，潮热谵语，手足濈然汗出，舌红苔黄燥，脉沉实有力（痞、满、燥、实、坚俱备，阳明腑实总纲）",
+    "variants": [
+      "下午一阵阵潮热，说胡话，肚子胀硬疼，好几天拉不出。",
+      "腑实总纲：痞满燥实全有了，腹硬拒按，大便不通，手足汗出。",
+      "热结腑中，潮热谵语，腹满痛坚，燥屎阻结，脉沉而实。"
+    ],
+    "differentials": [
+      "小承气汤",
+      "大承气汤",
+      "调胃承气汤"
+    ],
+    "difficulty": "入门",
+    "tags": [
+      "潮热",
+      "谵语",
+      "腹满痛",
+      "便秘",
+      "痞满燥实"
+    ]
+  },
+  {
+    "id": "F023",
+    "no": 23,
+    "name": "小承气汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "阳明腑实，轻症",
+    "composition": [
+      {
+        "herb": "大黄",
+        "gram": 12,
+        "processing": "酒洗"
+      },
+      {
+        "herb": "厚朴",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "枳实",
+        "gram": 9,
+        "processing": "炙"
+      }
+    ],
+    "pathogenesis": "阳明腑实初起，痞满为主，燥坚未甚，轻下热结",
+    "standardSymptom": "潮热，腹胀满，大便硬，谵语，脉滑而疾，苔黄腻",
+    "variants": [
+      "肚子胀得鼓鼓的，下午一阵潮热，大便干结拉不出。",
+      "腑实轻症，腹胀满闷，有点说糊话，脉滑得快。",
+      "热结不重，主要是痞满，大便发硬，苔黄腻腻的。"
+    ],
+    "differentials": [
+      "大承气汤",
+      "调胃承气汤",
+      "承气汤类"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "潮热",
+      "腹胀满",
+      "大便硬",
+      "谵语",
+      "脉滑疾"
+    ]
+  },
+  {
+    "id": "F024",
+    "no": 24,
+    "name": "大承气汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "阳明腑实，重症",
+    "composition": [
+      {
+        "herb": "大黄",
+        "gram": 12,
+        "processing": "酒洗"
+      },
+      {
+        "herb": "厚朴",
+        "gram": 15,
+        "processing": "炙"
+      },
+      {
+        "herb": "枳实",
+        "gram": 12,
+        "processing": "炙"
+      },
+      {
+        "herb": "芒硝",
+        "gram": 9,
+        "processing": "冲"
+      }
+    ],
+    "pathogenesis": "阳明腑实重证，燥屎内结，痞满燥实坚俱盛，急下存阴",
+    "standardSymptom": "潮热谵语，腹满硬痛拒按，便秘，手足濈汗，舌红苔黄燥，脉沉实有力",
+    "variants": [
+      "烧得一阵阵潮热，胡话连篇，肚子硬得疼不敢碰，便秘厉害。",
+      "腑实重症，腹胀硬如石拒按，大便多日不通，手足汗出。",
+      "燥屎结得死紧，满腹硬痛，脉沉实有力，再不下就伤阴了。"
+    ],
+    "differentials": [
+      "小承气汤",
+      "调胃承气汤",
+      "承气汤类"
+    ],
+    "difficulty": "入门",
+    "tags": [
+      "潮热",
+      "谵语",
+      "腹满硬痛",
+      "便秘",
+      "脉沉实"
+    ]
+  },
+  {
+    "id": "F025",
+    "no": 25,
+    "name": "调胃承气汤",
+    "alias": [],
+    "source": "伤寒论",
+    "meridians": [
+      "阳明"
+    ],
+    "subPattern": "阳明腑实，未成实",
+    "composition": [
+      {
+        "herb": "大黄",
+        "gram": 12,
+        "processing": "酒洗"
+      },
+      {
+        "herb": "甘草",
+        "gram": 6,
+        "processing": "炙"
+      },
+      {
+        "herb": "芒硝",
+        "gram": 9,
+        "processing": "冲"
+      }
+    ],
+    "pathogenesis": "阳明燥热初结，腑实未成，燥实为主，缓下和胃",
+    "standardSymptom": "蒸蒸发热，心烦，腹胀满，大便不通，舌红苔黄燥",
+    "variants": [
+      "身上一阵阵往外蒸着发热，心里烦躁，肚子胀，大便不通。",
+      "腑实未成，主要是燥热内结，心烦腹胀，热从里头发出来。",
+      "不大便而蒸热，躁扰不宁，腹微满，苔黄燥，还不到硬痛。"
+    ],
+    "differentials": [
+      "大承气汤",
+      "小承气汤",
+      "承气汤类"
+    ],
+    "difficulty": "进阶",
+    "tags": [
+      "蒸蒸发热",
+      "心烦",
+      "腹胀满",
+      "大便不通"
+    ]
+  }
+]

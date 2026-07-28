@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/practice/practice",
+    "pages/test/test",
+    "pages/wrongbook/wrongbook",
+    "pages/list/list",
+    "pages/detail/detail",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3E6B4F",
+    "navigationBarTitleText": "经方六经辨证训练",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F7F4EE"
+  },
+  "tabBar": {
+    "color": "#9B9284",
+    "selectedColor": "#3E6B4F",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "训练" },
+      { "pagePath": "pages/wrongbook/wrongbook", "text": "错题本" },
+      { "pagePath": "pages/profile/profile", "text": "我的" }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

@@ -1,0 +1,43 @@
+<view class="container">
+  <view class="panel">
+    <view class="title" style="margin-bottom:20rpx;">学习进度总览</view>
+    <view class="nums">
+      <view class="n-item"><view class="n-v c-green">{{stats.mastered}}</view><view class="sub">已掌握</view></view>
+      <view class="n-item"><view class="n-v c-amber">{{stats.learning}}</view><view class="sub">学习中</view></view>
+      <view class="n-item"><view class="n-v c-red">{{stats.weak}}</view><view class="sub">需加强</view></view>
+      <view class="n-item"><view class="n-v c-gray">{{stats.unseen}}</view><view class="sub">未学习</view></view>
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="title" style="margin-bottom:8rpx;">六经掌握度</view>
+    <canvas type="2d" id="radar" class="radar"></canvas>
+    <view wx:for="{{bars}}" wx:key="m" class="bar-row">
+      <view class="bar-m">{{item.m}}</view>
+      <view class="bar-track"><view class="bar-fill {{M_CLASS[item.m]}}" style="width:{{item.pct}}%;"></view></view>
+      <view class="bar-n">{{item.mastered}}/{{item.total}}</view>
+    </view>
+  </view>
+
+  <view class="panel entry" bindtap="goFav">
+    <view>收藏方剂 <text class="sub">{{favCount}} 首</text></view>
+    <view class="arrow">›</view>
+  </view>
+
+  <view class="panel">
+    <view class="title" style="font-size:30rpx;">设置</view>
+    <view class="set-row">
+      <view class="set-l">错题连对几次自动移出</view>
+      <view class="chips" style="margin:0;">
+        <view wx:for="{{removeOpts}}" wx:key="*this" class="chip {{removeN === item ? 'on' : ''}}" style="margin-bottom:0;" data-v="{{item}}" bindtap="setRemoveN">{{item}} 次</view>
+      </view>
+    </view>
+    <view class="set-row">
+      <view class="set-l">累计完成测试</view>
+      <view class="sub">{{testCount}} 轮</view>
+    </view>
+    <view class="reset" bindtap="reset">重置全部学习数据</view>
+  </view>
+
+  <view class="tip">仅供中医学习训练使用 · 学习数据保存在本机</view>
+</view>

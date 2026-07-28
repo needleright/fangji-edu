@@ -1,0 +1,85 @@
+<view class="container">
+
+  <!-- 筛选栏 -->
+  <view class="filter-bar">
+    <view class="fb-info">题库 {{poolCount}} 条<block wx:if="{{mode === 'random'}}"> · 已刷 {{count}} 题</block></view>
+    <view class="fb-btn" bindtap="toggleFilter">{{showFilter ? '收起筛选 ▲' : '筛选范围 ▼'}}</view>
+  </view>
+
+  <view class="panel" wx:if="{{showFilter}}">
+    <view class="f-label">范围</view>
+    <view class="chips">
+      <view wx:for="{{scopes}}" wx:key="k" class="chip {{scope === item.k ? 'on' : ''}}" data-v="{{item.k}}" bindtap="setScope">{{item.t}}</view>
+    </view>
+    <view class="f-label">六经</view>
+    <view class="chips">
+      <view class="chip {{meridian === '全部' ? 'on' : ''}}" data-v="全部" bindtap="setMeridian">全部</view>
+      <view wx:for="{{MERIDIANS}}" wx:key="*this" class="chip {{meridian === item ? 'on' : ''}}" data-v="{{item}}" bindtap="setMeridian">{{item}}</view>
+    </view>
+    <view class="f-label">难度</view>
+    <view class="chips">
+      <view wx:for="{{['全部','入门','进阶','难点']}}" wx:key="*this" class="chip {{difficulty === item ? 'on' : ''}}" data-v="{{item}}" bindtap="setDifficulty">{{item}}</view>
+    </view>
+    <view class="f-label">出处</view>
+    <view class="chips">
+      <view wx:for="{{['全部','伤寒论','金匮要略','其他']}}" wx:key="*this" class="chip {{source === item ? 'on' : ''}}" data-v="{{item}}" bindtap="setSource">{{item}}</view>
+    </view>
+  </view>
+
+  <!-- 空态 -->
+  <view class="empty" wx:if="{{!cur}}">
+    <view>当前筛选范围内没有题目</view>
+    <view>请调整筛选条件</view>
+  </view>
+
+  <!-- 翻转卡片 -->
+  <view class="card-wrap" wx:if="{{cur}}">
+    <view class="card {{flipped ? 'flipped' : ''}}" bindtap="flip">
+      <!-- 正面：症状 -->
+      <view class="face front">
+        <view class="face-tag">患者主诉</view>
+        <view class="symptom">{{symptom}}</view>
+        <view class="hint">
+          <view>心中默想：六经归属？候选方剂？</view>
+          <view>点击卡片翻面看答案</view>
+        </view>
+      </view>
+      <!-- 背面：答案 -->
+      <view class="face back">
+        <scroll-view scroll-y class="back-scroll">
+          <view class="ans-head">
+            <view class="ans-name">{{cur.name}}</view>
+            <view class="fav {{isFav ? 'on' : ''}}" catchtap="toggleFav">{{isFav ? '★' : '☆'}}</view>
+          </view>
+          <view class="ans-badges">
+            <view wx:for="{{cur.meridians}}" wx:key="*this" class="badge {{M_CLASS[item]}}">{{item}}</view>
+            <view class="diff d-{{cur.difficulty}}">{{cur.difficulty}}</view>
+          </view>
+          <view class="ans-row"><text class="k">证型</text>{{cur.subPattern}} · {{cur.source}}</view>
+          <view class="ans-row"><text class="k">病机</text>{{cur.pathogenesis}}</view>
+          <view class="ans-row k">组成</view>
+          <view class="herbs">
+            <view wx:for="{{cur.composition}}" wx:key="herb" class="herb">{{item.herb}} {{item.gram}}g<text wx:if="{{item.processing}}">（{{item.processing}}）</text></view>
+          </view>
+          <view class="ans-row k" wx:if="{{cur.differentials.length}}">鉴别方剂（点击查看）</view>
+          <view class="chips">
+            <view wx:for="{{cur.differentials}}" wx:key="*this" class="chip diff-chip" data-name="{{item}}" catchtap="goDiff">{{item}}</view>
+          </view>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 操作区 -->
+  <view class="ops" wx:if="{{cur}}">
+    <block wx:if="{{flipped}}">
+      <view class="op op-bad" data-level="unknown" bindtap="markCard">不会</view>
+      <view class="op op-mid" data-level="fuzzy" bindtap="markCard">模糊</view>
+      <view class="op op-good" data-level="mastered" bindtap="markCard">已掌握</view>
+    </block>
+    <block wx:else>
+      <view class="op op-skip" bindtap="skip">跳过 / 下一题</view>
+      <view class="op op-flip" bindtap="flip">翻面看答案</view>
+    </block>
+  </view>
+</view>

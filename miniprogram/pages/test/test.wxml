@@ -1,0 +1,96 @@
+<view class="container">
+
+  <!-- 设置 -->
+  <block wx:if="{{phase === 'setup'}}">
+    <view class="panel">
+      <view class="title">测试范围</view>
+      <view class="f-label">六经</view>
+      <view class="chips">
+        <view class="chip {{meridian === '全部' ? 'on' : ''}}" data-v="全部" bindtap="setMeridian">全部</view>
+        <view wx:for="{{MERIDIANS}}" wx:key="*this" class="chip {{meridian === item ? 'on' : ''}}" data-v="{{item}}" bindtap="setMeridian">{{item}}</view>
+      </view>
+      <view class="f-label">题量</view>
+      <view class="chips">
+        <view wx:for="{{countOpts}}" wx:key="*this" class="chip {{count === item ? 'on' : ''}}" data-v="{{item}}" bindtap="setCount">{{item}} 题</view>
+      </view>
+      <view class="sub" style="margin-top:10rpx;">当前范围共 {{poolCount}} 条方证</view>
+    </view>
+    <view class="panel rule">
+      <view class="title" style="font-size:28rpx;">判分规则</view>
+      <view class="rule-t">每题两步：① 选六经归属（可多选，须与答案完全一致）② 选方剂。两步全对才计为答对，答错自动进入错题本。</view>
+    </view>
+    <view class="btn-main {{poolCount ? '' : 'disabled'}}" bindtap="start">开始测试</view>
+  </block>
+
+  <!-- 答题 -->
+  <block wx:if="{{phase === 'quiz'}}">
+    <view class="prog">第 {{idx + 1}} / {{paper.length}} 题</view>
+    <view class="panel">
+      <view class="face-tag">患者主诉</view>
+      <view class="q-symptom">{{q.symptom}}</view>
+    </view>
+
+    <view class="panel">
+      <view class="step-t">① 六经归属{{step > 1 ? '（已提交）' : '（可多选）'}}</view>
+      <view class="chips">
+        <view wx:for="{{MERIDIANS}}" wx:key="*this"
+          class="chip m-chip {{selM.indexOf(item) > -1 ? 'on' : ''}} {{step === 3 && q.meridians.indexOf(item) > -1 ? 'right' : ''}}"
+          data-v="{{item}}" bindtap="toggleM">{{item}}</view>
+      </view>
+      <view wx:if="{{step === 1}}" class="btn-main sm" bindtap="confirmM">确认六经，进入选方</view>
+      <view wx:if="{{step === 3 && !judged.mOk}}" class="judge bad">六经判断有误，正确：{{q.meridians}}</view>
+      <view wx:if="{{step === 3 && judged.mOk}}" class="judge good">六经判断正确</view>
+    </view>
+
+    <view class="panel" wx:if="{{step >= 2}}">
+      <view class="step-t">② 选择方剂</view>
+      <view wx:for="{{q.options}}" wx:key="*this"
+        class="opt {{step === 3 && item === q.answer ? 'opt-right' : ''}} {{step === 3 && item === selName && item !== q.answer ? 'opt-wrong' : ''}}"
+        data-v="{{item}}" bindtap="pickName">{{item}}</view>
+    </view>
+
+    <!-- 解析 -->
+    <view class="panel" wx:if="{{step === 3}}">
+      <view class="judge {{judged.ok ? 'good' : 'bad'}}" style="margin-bottom:16rpx;">
+        {{judged.ok ? '✓ 本题答对' : '✗ 本题答错，已加入错题本'}}
+      </view>
+      <view class="ans-row"><text class="k">方剂</text>{{detail.name}}（{{detail.subPattern}}）</view>
+      <view class="ans-row"><text class="k">病机</text>{{detail.pathogenesis}}</view>
+      <view class="ans-row"><text class="k">组成</text><text wx:for="{{detail.composition}}" wx:key="herb">{{item.herb}}{{item.gram}}g　</text></view>
+      <view class="btn-line" style="margin-top:16rpx;" data-id="{{detail.id}}" bindtap="goDetail">查看方剂详情</view>
+    </view>
+
+    <view wx:if="{{step === 3}}" class="btn-main" bindtap="nextQ">{{idx + 1 < paper.length ? '下一题' : '查看本轮报告'}}</view>
+  </block>
+
+  <!-- 结果 -->
+  <block wx:if="{{phase === 'result'}}">
+    <view class="panel res-head">
+      <view class="res-acc">{{result.acc}}<text class="pct">%</text></view>
+      <view class="sub">正确率 · 答对 {{result.correct}} / {{result.total}} 题</view>
+    </view>
+
+    <view class="panel">
+      <view class="title" style="font-size:30rpx;margin-bottom:20rpx;">薄弱六经分布（按答错题计）</view>
+      <view wx:for="{{result.weakBars}}" wx:key="m" class="bar-row">
+        <view class="bar-m">{{item.m}}</view>
+        <view class="bar-track"><view class="bar-fill {{M_CLASS[item.m]}}" style="width: {{item.pct}}%;"></view></view>
+        <view class="bar-n">{{item.n}}</view>
+      </view>
+    </view>
+
+    <view class="panel" wx:if="{{result.wrongItems.length}}">
+      <view class="title" style="font-size:30rpx;margin-bottom:16rpx;">本轮错题</view>
+      <view wx:for="{{result.wrongItems}}" wx:key="id" class="w-item" data-id="{{item.id}}" bindtap="goDetail">
+        <view>
+          <view class="w-name">{{item.name}}</view>
+          <view class="sub">{{item.subPattern}} · {{item.mOk ? '六经对' : '六经错'}}/{{item.fOk ? '方剂对' : '方剂错'}}</view>
+        </view>
+        <view class="arrow">›</view>
+      </view>
+    </view>
+
+    <view class="btn-main" bindtap="restart">再来一轮</view>
+    <view class="btn-line" style="margin-top:20rpx;" bindtap="goWrong">去错题本复习</view>
+  </block>
+</view>

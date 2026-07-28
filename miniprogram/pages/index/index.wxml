@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="hero">
+    <view class="hero-title">经方六经辨证训练</view>
+    <view class="hero-sub">看症状 · 判六经 · 猜方剂 · 翻面对答案</view>
+    <view class="hero-stats">
+      <view class="hs-item"><view class="hs-num">{{stats.total}}</view><view class="hs-label">方证条目</view></view>
+      <view class="hs-item"><view class="hs-num">{{stats.mastered}}</view><view class="hs-label">已掌握</view></view>
+      <view class="hs-item"><view class="hs-num">{{stats.wrongCount}}</view><view class="hs-label">待复习错题</view></view>
+    </view>
+  </view>
+
+  <view class="grid">
+    <view class="cell c1" bindtap="goLearn">
+      <view class="cell-t">学习模式</view>
+      <view class="cell-d">翻卡记忆 · 按六经/难度筛选</view>
+    </view>
+    <view class="cell c2" bindtap="goTest">
+      <view class="cell-t">测试模式</view>
+      <view class="cell-d">先判六经 · 再选方剂</view>
+    </view>
+    <view class="cell c3" bindtap="goRandom">
+      <view class="cell-t">随机抽题</view>
+      <view class="cell-d">连续刷题 · 计次统计</view>
+    </view>
+    <view class="cell c4" bindtap="goWrong">
+      <view class="cell-t">错题复习</view>
+      <view class="cell-d">高频错题优先</view>
+    </view>
+  </view>
+
+  <view class="panel list-entry" bindtap="goList">
+    <view>
+      <view class="title">方剂总览</view>
+      <view class="sub">浏览与检索全部 100 首经方</view>
+    </view>
+    <view class="arrow">›</view>
+  </view>
+
+  <view class="tip">本工具仅用于中医知识学习训练，不构成诊疗建议</view>
+</view>

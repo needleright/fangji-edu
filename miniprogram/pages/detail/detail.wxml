@@ -1,0 +1,42 @@
+<view class="container" wx:if="{{f}}">
+  <view class="panel">
+    <view class="head">
+      <view class="name">{{f.name}}</view>
+      <view class="fav {{isFav ? 'on' : ''}}" bindtap="toggleFav">{{isFav ? '★ 已收藏' : '☆ 收藏'}}</view>
+    </view>
+    <view style="margin:16rpx 0;">
+      <view wx:for="{{f.meridians}}" wx:key="*this" class="badge {{M_CLASS[item]}}">{{item}}</view>
+      <text class="diff d-{{f.difficulty}}">{{f.difficulty}}</text>
+    </view>
+    <view class="sub">{{f.subPattern}} · 出处：{{f.source}} · 学习状态：{{statusText}}</view>
+  </view>
+
+  <view class="panel">
+    <view class="sec-t">病机</view>
+    <view class="txt">{{f.pathogenesis}}</view>
+    <view class="sec-t">标准症状描述</view>
+    <view class="txt">{{f.standardSymptom}}</view>
+  </view>
+
+  <view class="panel">
+    <view class="sec-t">药物组成</view>
+    <view class="herbs">
+      <view wx:for="{{f.composition}}" wx:key="herb" class="herb">{{item.herb}} {{item.gram}}g<text wx:if="{{item.processing}}">（{{item.processing}}）</text></view>
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="sec-t">症状变式（口语化主诉 · 已审核）</view>
+    <view wx:for="{{f.variants}}" wx:key="*this" class="variant">「{{item}}」</view>
+  </view>
+
+  <view class="panel" wx:if="{{f.differentials.length}}">
+    <view class="sec-t">鉴别方剂</view>
+    <view class="chips">
+      <view wx:for="{{f.differentials}}" wx:key="*this" class="chip diff-chip" data-name="{{item}}" bindtap="goDiff">{{item}}</view>
+    </view>
+  </view>
+
+  <view class="btn-main" bindtap="practice">练习此方证</view>
+  <view style="height:40rpx;"></view>
+</view>

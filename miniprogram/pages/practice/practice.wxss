@@ -1,0 +1,81 @@
+.filter-bar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20rpx; }
+.fb-info { font-size: 24rpx; color: #9B9284; }
+.fb-btn { font-size: 26rpx; color: #3E6B4F; font-weight: 500; }
+.f-label { font-size: 24rpx; color: #9B9284; margin: 10rpx 0 12rpx; }
+
+/* 3D 翻转卡片 */
+.card-wrap { perspective: 2000rpx; margin-bottom: 28rpx; }
+.card {
+  position: relative;
+  width: 100%;
+  height: 760rpx;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+.card.flipped { transform: rotateY(180deg); }
+.face {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  backface-visibility: hidden;
+  border-radius: 24rpx;
+  background: #fff;
+  box-shadow: 0 8rpx 30rpx rgba(90, 70, 40, 0.1);
+  padding: 36rpx;
+  box-sizing: border-box;
+}
+.front { display: flex; flex-direction: column; }
+.face-tag {
+  align-self: flex-start;
+  background: #EFEAE0;
+  color: #6B5F4C;
+  font-size: 22rpx;
+  padding: 6rpx 20rpx;
+  border-radius: 999rpx;
+}
+.symptom {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 38rpx;
+  line-height: 1.7;
+  color: #2F2A1F;
+  padding: 20rpx 8rpx;
+}
+.hint { text-align: center; font-size: 22rpx; color: #B5AC9C; white-space: pre-line; line-height: 1.8; }
+
+.back { transform: rotateY(180deg); }
+.back-scroll { height: 100%; }
+.ans-head { display: flex; justify-content: space-between; align-items: center; }
+.ans-name { font-size: 44rpx; font-weight: 700; color: #2F2A1F; }
+.fav { font-size: 48rpx; color: #C9C0B0; padding: 0 10rpx; }
+.fav.on { color: #E0A93E; }
+.ans-badges { margin: 16rpx 0 20rpx; display: flex; align-items: center; }
+.ans-row { font-size: 27rpx; line-height: 1.7; margin-bottom: 14rpx; color: #3A3226; }
+.k { color: #3E6B4F; font-weight: 600; margin-right: 12rpx; font-size: 25rpx; }
+.herbs { display: flex; flex-wrap: wrap; margin-bottom: 10rpx; }
+.herb {
+  background: #F4F0E6;
+  border-radius: 10rpx;
+  padding: 8rpx 18rpx;
+  font-size: 24rpx;
+  margin: 0 12rpx 12rpx 0;
+  color: #5A4E3A;
+}
+.diff-chip { background: #E4F0E8; color: #3E6B4F; }
+
+/* 操作按钮 */
+.ops { display: flex; gap: 20rpx; }
+.op {
+  flex: 1;
+  text-align: center;
+  padding: 24rpx 0;
+  border-radius: 16rpx;
+  font-size: 30rpx;
+  font-weight: 500;
+  color: #fff;
+}
+.op-bad { background: #B04030; }
+.op-mid { background: #D9834F; }
+.op-good { background: #3E6B4F; }
+.op-skip { background: #fff; color: #6B5F4C; border: 2rpx solid #D8D0C0; }
+.op-flip { background: #3E6B4F; }

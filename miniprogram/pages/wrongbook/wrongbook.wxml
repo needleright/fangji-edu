@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="head" wx:if="{{list.length}}">
+    <view class="sub">共 {{list.length}} 条 · 按错误频次排序 · 测试中连对 {{removeN}} 次自动移出</view>
+    <view class="btn-main" style="margin-top:20rpx;" bindtap="review">开始错题复习</view>
+  </view>
+
+  <view class="empty" wx:if="{{!list.length}}">
+    <view>错题本是空的</view>
+    <view style="margin-top:12rpx;">测试答错或学习中标记「不会/模糊」的方证会出现在这里</view>
+  </view>
+
+  <view class="panel item" wx:for="{{list}}" wx:key="id">
+    <view class="row1">
+      <view class="name" data-id="{{item.id}}" bindtap="goDetail">{{item.name}}</view>
+      <view class="wrong-n">错 {{item.wrong}} 次</view>
+    </view>
+    <view class="row2">
+      <view>
+        <view wx:for="{{item.meridians}}" wx:for-item="m" wx:key="*this" class="badge {{M_CLASS[m]}}">{{m}}</view>
+        <text class="sub">{{item.subPattern}}</text>
+      </view>
+    </view>
+    <view class="row3">
+      <view class="mini-btn" data-id="{{item.id}}" bindtap="reviewOne">复习此题</view>
+      <view class="mini-btn ghost" data-id="{{item.id}}" bindtap="remove">移出</view>
+    </view>
+  </view>
+</view>

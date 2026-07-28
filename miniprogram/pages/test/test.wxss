@@ -1,0 +1,47 @@
+.f-label { font-size: 24rpx; color: #9B9284; margin: 20rpx 0 12rpx; }
+.rule-t { font-size: 24rpx; color: #6B5F4C; line-height: 1.8; margin-top: 12rpx; }
+
+.prog { font-size: 24rpx; color: #9B9284; margin-bottom: 16rpx; }
+.face-tag {
+  display: inline-block;
+  background: #EFEAE0; color: #6B5F4C;
+  font-size: 22rpx; padding: 6rpx 20rpx; border-radius: 999rpx;
+}
+.q-symptom { font-size: 34rpx; line-height: 1.7; margin-top: 20rpx; color: #2F2A1F; }
+
+.step-t { font-size: 28rpx; font-weight: 600; color: #3E6B4F; margin-bottom: 16rpx; }
+.m-chip.right { box-shadow: inset 0 0 0 4rpx #3E6B4F; }
+.btn-main.sm { padding: 16rpx 0; font-size: 27rpx; margin-top: 8rpx; }
+
+.opt {
+  border: 2rpx solid #E3DCCC;
+  border-radius: 14rpx;
+  padding: 22rpx 24rpx;
+  font-size: 29rpx;
+  margin-bottom: 16rpx;
+  background: #FDFCF9;
+}
+.opt-right { background: #E4F0E8; border-color: #3E6B4F; color: #2E523C; font-weight: 600; }
+.opt-wrong { background: #FAE3DE; border-color: #B04030; color: #93342A; }
+
+.judge { font-size: 26rpx; padding: 12rpx 20rpx; border-radius: 10rpx; margin-top: 12rpx; }
+.judge.good { background: #E4F0E8; color: #2E523C; }
+.judge.bad { background: #FAE3DE; color: #93342A; }
+
+.ans-row { font-size: 26rpx; line-height: 1.7; margin-bottom: 10rpx; }
+.k { color: #3E6B4F; font-weight: 600; margin-right: 12rpx; }
+
+.res-head { text-align: center; padding: 50rpx 0; }
+.res-acc { font-size: 96rpx; font-weight: 700; color: #3E6B4F; }
+.pct { font-size: 40rpx; }
+
+.bar-row { display: flex; align-items: center; margin-bottom: 16rpx; }
+.bar-m { width: 80rpx; font-size: 25rpx; color: #5A4E3A; }
+.bar-track { flex: 1; height: 22rpx; background: #F0EBDF; border-radius: 999rpx; overflow: hidden; margin: 0 16rpx; }
+.bar-fill { height: 100%; border-radius: 999rpx; }
+.bar-n { width: 40rpx; text-align: right; font-size: 24rpx; color: #9B9284; }
+
+.w-item { display: flex; justify-content: space-between; align-items: center; padding: 18rpx 0; border-bottom: 2rpx solid #F2EDE2; }
+.w-item:last-child { border-bottom: none; }
+.w-name { font-size: 29rpx; font-weight: 600; }
+.arrow { color: #C9C0B0; font-size: 40rpx; }

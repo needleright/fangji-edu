@@ -1,0 +1,12 @@
+.search {
+  background: #fff; border-radius: 999rpx;
+  padding: 18rpx 32rpx; font-size: 27rpx;
+  margin-bottom: 20rpx; border: 2rpx solid #E8E2D4;
+}
+.row { display: flex; justify-content: space-between; align-items: center; padding: 24rpx 28rpx; }
+.name { font-size: 31rpx; font-weight: 600; }
+.st { font-size: 22rpx; padding: 6rpx 16rpx; border-radius: 8rpx; flex-shrink: 0; }
+.st-new { background: #F0EBDF; color: #9B9284; }
+.st-learning { background: #FBF0DC; color: #A8762A; }
+.st-mastered { background: #E4F0E8; color: #3E6B4F; }
+.st-weak { background: #FAE3DE; color: #B04030; }

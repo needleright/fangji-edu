@@ -1,0 +1,12 @@
+.head { margin-bottom: 24rpx; }
+.item { padding: 24rpx 28rpx; }
+.row1 { display: flex; justify-content: space-between; align-items: center; }
+.name { font-size: 32rpx; font-weight: 600; }
+.wrong-n { font-size: 24rpx; color: #B04030; background: #FAE3DE; padding: 4rpx 16rpx; border-radius: 8rpx; }
+.row2 { margin: 14rpx 0; }
+.row3 { display: flex; gap: 16rpx; }
+.mini-btn {
+  font-size: 24rpx; color: #fff; background: #3E6B4F;
+  padding: 10rpx 28rpx; border-radius: 999rpx;
+}
+.mini-btn.ghost { background: transparent; color: #9B9284; border: 2rpx solid #D8D0C0; }
