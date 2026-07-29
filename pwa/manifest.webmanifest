@@ -1,0 +1,17 @@
+{
+  "name": "经方六经辨证训练",
+  "short_name": "经方训练",
+  "description": "中医经方六经辨证学习训练工具：看症状判六经猜方剂，内置100首经典经方题库",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F4EE",
+  "theme_color": "#3E6B4F",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

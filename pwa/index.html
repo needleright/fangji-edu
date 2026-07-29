@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#3E6B4F">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="经方训练">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<title>经方六经辨证训练</title>
+<style>
+  :root { --green:#3E6B4F; --bg:#F7F4EE; --ink:#3A3226; --sub:#9B9284; }
+  * { box-sizing:border-box; margin:0; padding:0; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; }
+  body { background:#E8E4DA; display:flex; justify-content:center; padding:24px; min-height:100vh; }
+  .phone { width:400px; max-width:100%; height:820px; background:var(--bg); border-radius:36px; box-shadow:0 20px 60px rgba(0,0,0,.25); overflow:hidden; display:flex; flex-direction:column; border:10px solid #2b2b2b; position:relative; }
+  .nav { background:var(--green); color:#fff; text-align:center; padding:14px; font-size:16px; font-weight:600; flex-shrink:0; }
+  .body { flex:1; overflow-y:auto; padding:14px; -webkit-overflow-scrolling:touch; }
+  .tabbar { display:flex; background:#fff; border-top:1px solid #e5dfd2; flex-shrink:0; }
+  .tab { flex:1; text-align:center; padding:12px 0; font-size:13px; color:var(--sub); cursor:pointer; }
+  .tab.on { color:var(--green); font-weight:600; }
+  .panel { background:#fff; border-radius:12px; padding:16px; margin-bottom:12px; box-shadow:0 2px 8px rgba(90,70,40,.06); }
+  .hero { background:linear-gradient(135deg,#3E6B4F,#2E523C); border-radius:14px; color:#fff; padding:20px; margin-bottom:12px; }
+  .hero h2 { font-size:20px; } .hero p { font-size:12px; opacity:.85; margin-top:4px; }
+  .hstats { display:flex; margin-top:18px; text-align:center; }
+  .hstats div { flex:1; } .hstats b { font-size:22px; display:block; } .hstats span { font-size:11px; opacity:.8; }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:12px; }
+  .cell { border-radius:12px; padding:16px 14px; color:#fff; cursor:pointer; }
+  .cell b { font-size:17px; } .cell p { font-size:11px; opacity:.85; margin-top:4px; }
+  .c1{background:linear-gradient(135deg,#4C9E6B,#3E7D56)} .c2{background:linear-gradient(135deg,#D9834F,#C4693B)}
+  .c3{background:linear-gradient(135deg,#3B82C4,#2F6AA3)} .c4{background:linear-gradient(135deg,#B04030,#93342A)}
+  .chips { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+  .chip { padding:5px 13px; border-radius:99px; background:#EFEAE0; color:#6B5F4C; font-size:12px; cursor:pointer; }
+  .chip.on { background:var(--green); color:#fff; }
+  .badge { display:inline-block; padding:2px 9px; border-radius:4px; font-size:11px; color:#fff; margin-right:5px; }
+  .m-太阳{background:#3B82C4}.m-阳明{background:#D9553F}.m-少阳{background:#4C9E6B}.m-太阴{background:#C29A3F}.m-少阴{background:#5B4FA8}.m-厥阴{background:#8A4FA8}
+  .scene { perspective:1200px; margin-bottom:12px; }
+  .card { position:relative; height:440px; transform-style:preserve-3d; transition:transform .5s; cursor:pointer; }
+  .card.flip { transform:rotateY(180deg); }
+  .face { position:absolute; inset:0; backface-visibility:hidden; background:#fff; border-radius:16px; box-shadow:0 4px 16px rgba(90,70,40,.1); padding:20px; overflow-y:auto; }
+  .back { transform:rotateY(180deg); }
+  .tagchip { display:inline-block; background:#EFEAE0; color:#6B5F4C; font-size:11px; padding:3px 12px; border-radius:99px; }
+  .sym { font-size:19px; line-height:1.8; color:var(--ink); margin:40px 4px; }
+  .hint { text-align:center; font-size:11px; color:#B5AC9C; line-height:1.8; position:absolute; bottom:18px; left:0; right:0; }
+  .ansname { font-size:24px; font-weight:700; margin-bottom:8px; }
+  .row { font-size:13px; line-height:1.7; margin:7px 0; }
+  .k { color:var(--green); font-weight:600; margin-right:6px; font-size:12px; }
+  .herb { display:inline-block; background:#F4F0E6; border-radius:6px; padding:4px 10px; font-size:12px; margin:0 5px 5px 0; color:#5A4E3A; }
+  .ops { display:flex; gap:8px; }
+  .op { flex:1; text-align:center; padding:12px 0; border-radius:10px; font-size:14px; color:#fff; cursor:pointer; }
+  .bad{background:#B04030}.mid{background:#D9834F}.good{background:var(--green)}
+  .ghost{background:#fff;color:#6B5F4C;border:1px solid #D8D0C0}
+  .btn { background:var(--green); color:#fff; border-radius:10px; text-align:center; padding:12px; font-size:15px; cursor:pointer; margin-top:8px; }
+  .opt { border:1px solid #E3DCCC; border-radius:10px; padding:11px 12px; font-size:14px; margin-bottom:8px; background:#FDFCF9; cursor:pointer; }
+  .opt.right { background:#E4F0E8; border-color:var(--green); font-weight:600; }
+  .opt.wrong { background:#FAE3DE; border-color:#B04030; }
+  .judge { font-size:13px; padding:7px 12px; border-radius:8px; margin-top:6px; }
+  .jg{background:#E4F0E8;color:#2E523C}.jb{background:#FAE3DE;color:#93342A}
+  .item { display:flex; justify-content:space-between; align-items:center; padding:11px 0; border-bottom:1px solid #F2EDE2; cursor:pointer; }
+  .search { width:100%; border:1px solid #E8E2D4; border-radius:99px; padding:9px 16px; font-size:13px; margin-bottom:8px; outline:none; }
+  .sub { color:var(--sub); font-size:11px; }
+  h3 { font-size:15px; margin-bottom:6px; }
+  .note { text-align:center; font-size:11px; color:#B5AC9C; margin:10px 0; cursor:pointer; }
+  .banner { text-align:center; color:#6B5F4C; font-size:13px; margin-bottom:14px; width:400px; max-width:100%; }
+  .wrap { display:flex; flex-direction:column; align-items:center; }
+  /* 弹窗 */
+  .modal { position:fixed; inset:0; background:rgba(0,0,0,.45); display:none; align-items:center; justify-content:center; padding:20px; z-index:50; }
+  .modal.show { display:flex; }
+  .modal-card { background:#fff; border-radius:16px; max-width:420px; width:100%; max-height:80vh; overflow-y:auto; padding:22px; position:relative; }
+  .modal-close { position:absolute; top:12px; right:16px; font-size:20px; color:#999; cursor:pointer; }
+  .modal-card h2 { font-size:20px; margin-bottom:6px; }
+  .modal-card .row { font-size:14px; }
+  .modal-card .herb { margin-top:6px; }
+  .about-p { font-size:13px; line-height:1.9; color:#5A4E3A; }
+  /* 移动端：全屏沉浸式，去掉桌面预览边框 */
+  @media (max-width:480px){
+    body { padding:0; background:var(--bg); }
+    .banner { display:none; }
+    .phone { width:100%; height:100vh; height:100dvh; border:none; border-radius:0; box-shadow:none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="banner">📱 本页即安卓 App（PWA）· 手机 Chrome 打开后「添加到主屏幕」即可安装</div>
+<div class="phone">
+  <div class="nav" id="nav">经方六经辨证训练</div>
+  <div class="body" id="body"></div>
+  <div class="tabbar">
+    <div class="tab on" data-p="home">训练</div>
+    <div class="tab" data-p="learn">学习</div>
+    <div class="tab" data-p="test">测试</div>
+    <div class="tab" data-p="list">题库</div>
+  </div>
+</div>
+</div>
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal-card">
+    <div class="modal-close" onclick="closeModal()">✕</div>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const MS = ['太阳','阳明','少阳','太阴','少阴','厥阴'];
+const rand = a => a[Math.floor(Math.random()*a.length)];
+const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const sym = f => rand([f.standardSymptom, ...f.variants]);
+const badges = f => f.meridians.map(m=>`<span class="badge m-${m}">${m}</span>`).join('');
+const herbs = f => f.composition.map(c=>`<span class="herb">${c.herb} ${c.gram}g${c.processing?'（'+c.processing+'）':''}</span>`).join('');
+let page='home', learnM='全部', mastered=new Set(), wrong=new Set(), count=0, cur=null, flipped=false;
+let tq=null, tstep=1, tsel=[], tidx=0, tpaper=[], tok=0, tphase='setup';
+const titles={home:'经方六经辨证训练',learn:'学习模式',test:'测试模式',list:'方剂总览'};
+
+function go(p){ page=p; $('#nav').textContent=titles[p];
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('on',t.dataset.p===p));
+  if(p==='learn'&&!cur) nextCard();
+  if(p==='test') tphase='setup';
+  render(); }
+document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>go(t.dataset.p));
+
+function pool(){ return FORMULAS.filter(f=>learnM==='全部'||f.meridians.includes(learnM)); }
+function nextCard(){ cur=rand(pool()); cur._sym=sym(cur); flipped=false; count++; }
+
+function render(){
+  const b=$('#body');
+  if(page==='home'){
+    b.innerHTML=`<div class="hero"><h2>经方六经辨证训练</h2><p>看症状 · 判六经 · 猜方剂 · 翻面对答案</p>
+      <div class="hstats"><div><b>${FORMULAS.length}</b><span>方证条目</span></div><div><b>${mastered.size}</b><span>已掌握</span></div><div><b>${wrong.size}</b><span>待复习错题</span></div></div></div>
+      <div class="grid">
+        <div class="cell c1" onclick="go('learn')"><b>学习模式</b><p>翻卡记忆 · 六经筛选</p></div>
+        <div class="cell c2" onclick="go('test')"><b>测试模式</b><p>先判六经 · 再选方剂</p></div>
+        <div class="cell c3" onclick="go('learn')"><b>随机抽题</b><p>连续刷题 · 计次统计</p></div>
+        <div class="cell c4" onclick="go('list')"><b>方剂总览</b><p>检索全部 100 首</p></div>
+      </div>
+      <div class="note" onclick="about()">ⓘ 关于与免责声明</div>
+      <div class="note">本工具仅用于中医知识学习训练，不构成诊疗建议</div>`;
+  }
+  if(page==='learn'){
+    const f=cur;
+    b.innerHTML=`<div class="chips">${['全部',...MS].map(m=>`<span class="chip ${learnM===m?'on':''}" onclick="learnM='${m}';nextCard();render()">${m}</span>`).join('')}</div>
+    <div class="sub" style="margin-bottom:8px">题库 ${pool().length} 条 · 已刷 ${count} 题</div>
+    <div class="scene"><div class="card ${flipped?'flip':''}" onclick="flipped=!flipped;render()">
+      <div class="face"><span class="tagchip">患者主诉</span><div class="sym">${f._sym}</div><div class="hint">心中默想：六经归属？候选方剂？<br>点击卡片翻面看答案</div></div>
+      <div class="face back"><div class="ansname">${f.name}</div><div>${badges(f)}</div>
+        <div class="row"><span class="k">证型</span>${f.subPattern} · ${f.source}</div>
+        <div class="row"><span class="k">病机</span>${f.pathogenesis}</div>
+        <div class="row"><span class="k">组成</span></div><div>${herbs(f)}</div>
+        <div class="row"><span class="k">鉴别</span>${f.differentials.join('、')}</div></div>
+    </div></div>
+    ${flipped
+      ?`<div class="ops"><div class="op bad" onclick="wrong.add(cur.id);nextCard();render()">不会</div><div class="op mid" onclick="wrong.add(cur.id);nextCard();render()">模糊</div><div class="op good" onclick="mastered.add(cur.id);wrong.delete(cur.id);nextCard();render()">已掌握</div></div>`
+      :`<div class="ops"><div class="op ghost" onclick="nextCard();render()">跳过 / 下一题</div><div class="op good" onclick="flipped=true;render()">翻面看答案</div></div>`}`;
+  }
+  if(page==='test'){
+    if(tphase==='setup'){
+      b.innerHTML=`<div class="panel"><h3>测试模式</h3><p class="sub" style="margin:6px 0 10px">每题两步：① 选六经（可多选，须与答案完全一致）② 选方剂。两步全对才算答对。</p>
+      <div class="btn" onclick="startTest()">开始测试（5 题）</div></div>`;
+    } else if(tphase==='quiz'){
+      const q=tq, f=FORMULAS.find(x=>x.id===q.id);
+      b.innerHTML=`<div class="sub" style="margin-bottom:8px">第 ${tidx+1} / ${tpaper.length} 题</div>
+      <div class="panel"><span class="tagchip">患者主诉</span><div style="font-size:16px;line-height:1.8;margin-top:10px">${q.symptom}</div></div>
+      <div class="panel"><h3 style="color:var(--green)">① 六经归属${tstep>1?'（已提交）':'（可多选）'}</h3>
+      <div class="chips">${MS.map(m=>`<span class="chip ${tsel.includes(m)?'on':''}" onclick="togM('${m}')">${m}</span>`).join('')}</div>
+      ${tstep===1?`<div class="btn" onclick="if(tsel.length){tstep=2;render()}">确认六经，进入选方</div>`:''}
+      ${tstep===3?(arrEq(tsel,q.meridians)?'<div class="judge jg">六经判断正确</div>':`<div class="judge jb">六经判断有误，正确：${q.meridians.join('、')}</div>`):''}</div>
+      ${tstep>=2?`<div class="panel"><h3 style="color:var(--green)">② 选择方剂</h3>${q.options.map(o=>`<div class="opt ${tstep===3?(o===q.answer?'right':(o===q.picked?'wrong':'')):''}" onclick="pick('${o}')">${o}</div>`).join('')}</div>`:''}
+      ${tstep===3?`<div class="panel"><div class="judge ${q.ok?'jg':'jb'}">${q.ok?'✓ 本题答对':'✗ 本题答错，已加入错题本'}</div>
+        <div class="row" style="margin-top:8px"><span class="k">病机</span>${f.pathogenesis}</div>
+        <div class="row"><span class="k">组成</span>${f.composition.map(c=>c.herb+c.gram+'g').join('　')}</div></div>
+        <div class="btn" onclick="nextT()">${tidx+1<tpaper.length?'下一题':'查看本轮报告'}</div>`:''}`;
+    } else {
+      const acc=Math.round(tok/tpaper.length*100);
+      b.innerHTML=`<div class="panel" style="text-align:center;padding:30px"><div style="font-size:48px;font-weight:700;color:var(--green)">${acc}<span style="font-size:20px">%</span></div><div class="sub">正确率 · 答对 ${tok} / ${tpaper.length} 题</div></div>
+      <div class="btn" onclick="startTest()">再来一轮</div><div class="btn" style="background:#fff;color:var(--green);border:1px solid var(--green)" onclick="go('home')">返回首页</div>`;
+    }
+  }
+  if(page==='list'){
+    const kw=window._kw||'';
+    const fs=FORMULAS.filter(f=>!kw||f.name.includes(kw)||f.subPattern.includes(kw)||f.tags.join(',').includes(kw));
+    b.innerHTML=`<input class="search" placeholder="搜索方名 / 证型 / 症状关键词" value="${kw}" oninput="window._kw=this.value;render();this.focus();this.setSelectionRange(this.value.length,this.value.length)">
+    <div class="panel">${fs.map(f=>`<div class="item" onclick="showDetail('${f.id}')"><div><b style="font-size:14px">${f.name}</b><div style="margin-top:4px">${badges(f)}<span class="sub">${f.subPattern}</span></div></div><span class="sub">›</span></div>`).join('')||'<div class="sub">无结果</div>'}</div>
+    <div class="note" onclick="about()">ⓘ 关于与免责声明</div>`;
+  }
+}
+function arrEq(a,b){ return a.slice().sort().join()===b.slice().sort().join(); }
+function togM(m){ if(tstep!==1)return; const i=tsel.indexOf(m); i>-1?tsel.splice(i,1):tsel.push(m); render(); }
+function startTest(){
+  tpaper=shuffle(FORMULAS).slice(0,5).map(f=>{
+    const ds=shuffle(FORMULAS.filter(x=>x.name!==f.name)).slice(0,8);
+    const names=[...new Set(ds.map(x=>x.name))].slice(0,3);
+    return {id:f.id,symptom:sym(f),meridians:f.meridians,answer:f.name,options:shuffle([f.name,...names])};
+  });
+  tidx=0; tok=0; tphase='quiz'; loadQ(); render();
+}
+function loadQ(){ tq=tpaper[tidx]; tstep=1; tsel=[]; }
+function pick(o){ if(tstep!==2)return; tq.picked=o; tq.ok=arrEq(tsel,tq.meridians)&&o===tq.answer; if(tq.ok)tok++; else wrong.add(tq.id); tstep=3; render(); }
+function nextT(){ if(tidx+1<tpaper.length){tidx++;loadQ();render();} else {tphase='result';render();} }
+function showDetail(id){
+  const f=FORMULAS.find(x=>x.id===id);
+  $('#modalBody').innerHTML=`<h2>${f.name}</h2>
+    <div style="margin:6px 0 12px">${badges(f)} <span class="sub">${f.subPattern} · ${f.source} · ${f.difficulty}</span></div>
+    <div class="row"><span class="k">病机</span>${f.pathogenesis}</div>
+    <div class="row"><span class="k">标准症状</span>${f.standardSymptom}</div>
+    <div class="row"><span class="k">组成</span></div><div>${herbs(f)}</div>
+    <div class="row"><span class="k">鉴别</span>${f.differentials.join('、')}</div>
+    <div class="row"><span class="k">关键词</span>${f.tags.map(t=>`<span class="tagchip">${t}</span>`).join(' ')}</div>`;
+  $('#modal').classList.add('show');
+}
+function about(){
+  $('#modalBody').innerHTML=`<h2>关于与免责声明</h2>
+    <p class="about-p" style="margin-top:10px">本应用为<b>中医经方六经辨证学习训练工具</b>，内置 100 首经典经方题库（含组成剂量、病机、标准症状与口语化主诉变式），供中医爱好者及从业者复习、自测使用。</p>
+    <p class="about-p" style="margin-top:12px"><b>免责声明：</b>本应用所有内容仅用于知识学习与训练，<b>不构成任何诊断、治疗或用药建议</b>。方剂剂量为文献折算参考值，临床使用请遵医嘱，并由具备资质的中医师辨证施治。因使用本应用产生的任何后果，开发者不承担责任。</p>
+    <p class="about-p" style="margin-top:12px">题库经《伤寒论》《金匮要略》原文及《王绵之方剂学讲稿》核对整理，仍建议以专业教材及医师审核为准。</p>`;
+  $('#modal').classList.add('show');
+}
+function closeModal(){ $('#modal').classList.remove('show'); }
+render();
+
+// 注册 Service Worker（离线可用 / 可安装为 App）
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('sw.js').catch(e=>console.log('SW 注册失败:',e));
+  });
+}
+</script>
+</body>
+</html>
