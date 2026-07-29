@@ -1,3 +1,4 @@
+<wxs src="../../utils/difficulty.wxs" module="d" />
 <view class="container">
 
   <!-- 筛选栏 -->
@@ -53,7 +54,7 @@
           </view>
           <view class="ans-badges">
             <view wx:for="{{cur.meridians}}" wx:key="*this" class="badge {{M_CLASS[item]}}">{{item}}</view>
-            <view class="diff d-{{cur.difficulty}}">{{cur.difficulty}}</view>
+            <view class="diff d-{{d.toClass(cur.difficulty)}}">{{cur.difficulty}}</view>
           </view>
           <view class="ans-row"><text class="k">证型</text>{{cur.subPattern}} · {{cur.source}}</view>
           <view class="ans-row"><text class="k">病机</text>{{cur.pathogenesis}}</view>

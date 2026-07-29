@@ -1,3 +1,4 @@
+<wxs src="../../utils/difficulty.wxs" module="d" />
 <view class="container" wx:if="{{f}}">
   <view class="panel">
     <view class="head">
@@ -6,7 +7,7 @@
     </view>
     <view style="margin:16rpx 0;">
       <view wx:for="{{f.meridians}}" wx:key="*this" class="badge {{M_CLASS[item]}}">{{item}}</view>
-      <text class="diff d-{{f.difficulty}}">{{f.difficulty}}</text>
+      <text class="diff d-{{d.toClass(f.difficulty)}}">{{f.difficulty}}</text>
     </view>
     <view class="sub">{{f.subPattern}} · 出处：{{f.source}} · 学习状态：{{statusText}}</view>
   </view>

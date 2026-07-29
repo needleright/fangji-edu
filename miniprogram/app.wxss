@@ -47,9 +47,9 @@ page {
 
 /* 难度 */
 .diff { font-size: 22rpx; padding: 4rpx 14rpx; border-radius: 8rpx; }
-.d-入门 { background: #E4F0E8; color: #3E6B4F; }
-.d-进阶 { background: #FBF0DC; color: #A8762A; }
-.d-难点 { background: #FAE3DE; color: #B04030; }
+.d-easy { background: #E4F0E8; color: #3E6B4F; }
+.d-mid { background: #FBF0DC; color: #A8762A; }
+.d-hard { background: #FAE3DE; color: #B04030; }
 
 /* 主按钮 */
 .btn-main {

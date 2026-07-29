@@ -1,3 +1,4 @@
+<wxs src="../../utils/difficulty.wxs" module="d" />
 <view class="container">
   <input class="search" placeholder="搜索方名 / 证型 / 症状关键词" value="{{kw}}" bindinput="onKw" />
   <view class="chips" style="margin-bottom:16rpx;">
@@ -9,7 +10,7 @@
 
   <view class="panel row" wx:for="{{list}}" wx:key="id" data-id="{{item.id}}" bindtap="goDetail">
     <view class="left">
-      <view class="name">{{item.name}} <text class="diff d-{{item.difficulty}}">{{item.difficulty}}</text></view>
+      <view class="name">{{item.name}} <text class="diff d-{{d.toClass(item.difficulty)}}">{{item.difficulty}}</text></view>
       <view style="margin-top:10rpx;">
         <view wx:for="{{item.meridians}}" wx:for-item="m" wx:key="*this" class="badge {{M_CLASS[m]}}">{{m}}</view>
         <text class="sub">{{item.subPattern}}</text>

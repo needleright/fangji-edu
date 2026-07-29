@@ -1,0 +1,8 @@
+// 难度中文 → CSS class 名（WXSS 不支持中文选择器）
+var toClass = function(d) {
+  if (d === '入门') return 'easy';
+  if (d === '进阶') return 'mid';
+  if (d === '难点') return 'hard';
+  return '';
+}
+module.exports = { toClass: toClass }
