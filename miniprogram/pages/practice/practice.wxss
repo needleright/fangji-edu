@@ -3,20 +3,20 @@
 .fb-btn { font-size: 26rpx; color: #3E6B4F; font-weight: 500; }
 .f-label { font-size: 24rpx; color: #9B9284; margin: 10rpx 0 12rpx; }
 
-/* 3D 翻转卡片 */
-.card-wrap { perspective: 2000rpx; margin-bottom: 28rpx; }
+/* 翻转卡片（兼容模式） */
+.card-wrap { margin-bottom: 28rpx; }
 .card {
   position: relative;
   width: 100%;
   height: 760rpx;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
 }
-.card.flipped { transform: rotateY(180deg); }
+.card.flipped .front { display: none; }
+.card.flipped .back { display: block; }
+.card .front { display: block; }
+.card .back { display: none; }
 .face {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  backface-visibility: hidden;
   border-radius: 24rpx;
   background: #fff;
   box-shadow: 0 8rpx 30rpx rgba(90, 70, 40, 0.1);
@@ -43,7 +43,7 @@
 }
 .hint { text-align: center; font-size: 22rpx; color: #B5AC9C; white-space: pre-line; line-height: 1.8; }
 
-.back { transform: rotateY(180deg); }
+.back { }
 .back-scroll { height: 100%; }
 .ans-head { display: flex; justify-content: space-between; align-items: center; }
 .ans-name { font-size: 44rpx; font-weight: 700; color: #2F2A1F; }
@@ -64,7 +64,7 @@
 .diff-chip { background: #E4F0E8; color: #3E6B4F; }
 
 /* 操作按钮 */
-.ops { display: flex; gap: 20rpx; }
+.ops { display: flex; }
 .op {
   flex: 1;
   text-align: center;
@@ -73,7 +73,9 @@
   font-size: 30rpx;
   font-weight: 500;
   color: #fff;
+  margin-left: 20rpx;
 }
+.ops .op:first-child { margin-left: 0; }
 .op-bad { background: #B04030; }
 .op-mid { background: #D9834F; }
 .op-good { background: #3E6B4F; }

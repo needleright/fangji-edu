@@ -10,7 +10,7 @@
 .q-symptom { font-size: 34rpx; line-height: 1.7; margin-top: 20rpx; color: #2F2A1F; }
 
 .step-t { font-size: 28rpx; font-weight: 600; color: #3E6B4F; margin-bottom: 16rpx; }
-.m-chip.right { box-shadow: inset 0 0 0 4rpx #3E6B4F; }
+.m-chip.right { border: 4rpx solid #3E6B4F; }
 .btn-main.sm { padding: 16rpx 0; font-size: 27rpx; margin-top: 8rpx; }
 
 .opt {
